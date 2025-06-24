@@ -21,7 +21,7 @@ client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
 # Load legal reporters data
-REPORTERS_FILE = ROOT_DIR.parent / 'legal_reporters_clean.json'
+REPORTERS_FILE = ROOT_DIR.parent / 'legal_reporters_comprehensive.json'
 with open(REPORTERS_FILE, 'r') as f:
     LEGAL_REPORTERS = json.load(f)
 
