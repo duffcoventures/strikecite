@@ -14,12 +14,14 @@ function App() {
     <div className={`App ${devMode ? 'dev' : ''}`}>
       <Router>
         <Header devMode={devMode} setDevMode={setDevMode} />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/app" element={<ValidatorPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/docs" element={<DocsPage />} />
-        </Routes>
+        <div className={devMode ? 'dev' : ''}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/app" element={<ValidatorPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/docs" element={<DocsPage />} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );
