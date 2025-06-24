@@ -65,15 +65,26 @@ class StrikeCiteAPITester:
         )
         if success:
             print(f"Received {len(response)} reporters")
-            if len(response) != 16:
-                print(f"⚠️ Warning: Expected 16 reporters, got {len(response)}")
-            
-            # Check a few sample reporters
-            reporters_found = [r for r in response if r.get('abbreviation') == 'U.S.']
-            if reporters_found:
-                print("✅ Found U.S. Supreme Court reporter")
+            if len(response) != 32:
+                print(f"⚠️ Warning: Expected 32 reporters, got {len(response)}")
             else:
-                print("❌ Missing U.S. Supreme Court reporter")
+                print(f"✅ Correct number of reporters loaded: 32")
+            
+            # Check for different types of reporters
+            federal_reporters = [r for r in response if r.get('jurisdiction') == 'Federal']
+            regional_reporters = [r for r in response if r.get('jurisdiction') == 'Regional']
+            
+            print(f"Federal reporters: {len(federal_reporters)}")
+            print(f"Regional reporters: {len(regional_reporters)}")
+            
+            # Check specific reporters
+            reporters_to_check = ['U.S.', 'F.3d', 'So. 2d', 'N.E.', 'P.3d']
+            for abbr in reporters_to_check:
+                reporters_found = [r for r in response if r.get('abbreviation') == abbr]
+                if reporters_found:
+                    print(f"✅ Found {abbr} reporter")
+                else:
+                    print(f"❌ Missing {abbr} reporter")
                 
         return success
 
