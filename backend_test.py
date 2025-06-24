@@ -48,8 +48,10 @@ class StrikeCiteAPITester:
         if success:
             print(f"Health Status: {response['status']}")
             print(f"Reporters Loaded: {response['reporters_loaded']}")
-            if response['reporters_loaded'] != 16:
-                print(f"⚠️ Warning: Expected 16 reporters, got {response['reporters_loaded']}")
+            if response['reporters_loaded'] != 32:
+                print(f"⚠️ Warning: Expected 32 reporters, got {response['reporters_loaded']}")
+            else:
+                print(f"✅ Correct number of reporters loaded: 32")
         return success
 
     def test_reporters_endpoint(self):
