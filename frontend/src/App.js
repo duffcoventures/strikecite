@@ -119,7 +119,7 @@ const StrikeCite = () => {
               <p className="text-gray-600 mt-1">U.S. Legal Citation Validator</p>
             </div>
             <div className="text-sm text-gray-500">
-              {reporters.length} reporters loaded
+              {reporters.length} legal reporters loaded (Federal, Regional & State)
             </div>
           </div>
         </div>
