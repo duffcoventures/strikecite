@@ -259,7 +259,7 @@ const ValidatorPage = () => {
                       className="file-input-hidden"
                       id="pdf-upload"
                     />
-                    <label htmlFor="pdf-upload" className="btn btn-upload">
+                    <label htmlFor="pdf-upload" className="btn-upload">
                       Choose PDF File
                     </label>
                   </div>
@@ -301,7 +301,7 @@ const ValidatorPage = () => {
                   <button
                     onClick={validateText}
                     disabled={loading || !text.trim()}
-                    className="btn btn-validate"
+                    className="btn-validate"
                   >
                     {loading ? (
                       <>
@@ -312,7 +312,7 @@ const ValidatorPage = () => {
                       "Validate Citations"
                     )}
                   </button>
-                  <button onClick={clearAll} className="btn btn-clear">
+                  <button onClick={clearAll} className="btn-clear">
                     Clear
                   </button>
                 </div>
@@ -333,7 +333,7 @@ const ValidatorPage = () => {
                   <button
                     onClick={validateJSON}
                     disabled={loading || !jsonInput.trim()}
-                    className="btn btn-validate"
+                    className="btn-validate"
                   >
                     {loading ? (
                       <>
@@ -344,7 +344,7 @@ const ValidatorPage = () => {
                       "Process Citation Data"
                     )}
                   </button>
-                  <button onClick={clearAll} className="btn btn-clear">
+                  <button onClick={clearAll} className="btn-clear">
                     Clear
                   </button>
                 </div>
@@ -364,7 +364,7 @@ const ValidatorPage = () => {
             <div className="results-header-legal">
               <h2>Validation Results</h2>
               {results && (
-                <button onClick={exportResults} className="btn btn-export">
+                <button onClick={exportResults} className="btn-export">
                   📥 Export Report
                 </button>
               )}
