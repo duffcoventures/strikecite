@@ -225,6 +225,57 @@ async def validate_citations_endpoint(lookup_json: List[CitationElement]):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Validation error: {str(e)}")
 
+@api_router.post("/validate-pdf", response_model=ValidationResult)
+async def validate_pdf_endpoint(file: UploadFile = File(...)):
+    """
+    Upload and validate a PDF document for legal citations.
+    Perfect for legal briefs, court documents, and legal memos.
+    """
+    try:
+        # Verify file is PDF
+        if not file.filename.lower().endswith('.pdf'):
+            raise HTTPException(status_code=400, detail="Only PDF files are supported")
+        
+        # Read PDF content
+        pdf_content = await file.read()
+        pdf_reader = PyPDF2.PdfReader(io.BytesIO(pdf_content))
+        
+        # Extract text from all pages
+        text = ""
+        for page in pdf_reader.pages:
+            text += page.extract_text() + "\n"
+        
+        if not text.strip():
+            raise HTTPException(status_code=400, detail="Could not extract text from PDF. Please ensure the PDF contains searchable text.")
+        
+        # Process through Layer B pipeline
+        courtlistener_url = "https://www.courtlistener.com/api/rest/v4/citation-lookup/"
+        headers = {
+            "Authorization": f"Token {os.environ.get('COURTLISTENER_API_KEY', '')}",
+            "Content-Type": "application/json"
+        }
+        
+        payload = {"text": text}
+        
+        response = requests.post(courtlistener_url, json=payload, headers=headers)
+        
+        if response.status_code != 200:
+            raise HTTPException(
+                status_code=response.status_code, 
+                detail=f"Citation extraction failed: {response.text}"
+            )
+        
+        lookup_json = response.json()
+        
+        # Validate citations using Layer A
+        result = validate_citations(lookup_json)
+        return result
+        
+    except PyPDF2.errors.PdfReadError:
+        raise HTTPException(status_code=400, detail="Invalid or corrupted PDF file")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"PDF processing error: {str(e)}")
+
 @api_router.post("/validate-text", response_model=ValidationResult)
 async def validate_text_endpoint(request: TextValidationRequest):
     """
