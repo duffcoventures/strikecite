@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 
 class StrikeCiteAPITester:
-    def __init__(self, base_url="https://15d824e4-b2a9-4f5c-b57b-6fd60de96aa7.preview.emergentagent.com/api"):
+    def __init__(self, base_url="https://9ea613dd-d35e-4223-a0c6-5060536aa0d6.preview.emergentagent.com/api"):
         self.base_url = base_url
         self.tests_run = 0
         self.tests_passed = 0
