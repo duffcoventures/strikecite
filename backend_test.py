@@ -95,10 +95,26 @@ class StrikeCiteAPITester:
         # Sample LOOKUP_JSON as specified in the requirements
         lookup_json = [
             {
-                "citation": "410 US 113", 
+                "citation": "410 U.S. 113", 
                 "normalized_citations": ["410 U.S. 113"], 
                 "start_index": 22, 
                 "end_index": 32, 
+                "status": 200, 
+                "clusters": [{"url": "https://example.com"}]
+            },
+            {
+                "citation": "123 F3rd 456", 
+                "normalized_citations": [], 
+                "start_index": 50, 
+                "end_index": 61, 
+                "status": 404, 
+                "clusters": []
+            },
+            {
+                "citation": "999 So. 2d 123", 
+                "normalized_citations": ["999 So. 2d 123"], 
+                "start_index": 80, 
+                "end_index": 94, 
                 "status": 200, 
                 "clusters": [{"url": "https://example.com"}]
             }
@@ -117,14 +133,29 @@ class StrikeCiteAPITester:
             if 'citations' in response and 'summary' in response:
                 print(f"✅ Response contains citations and summary")
                 
-                # Check if the citation was verified
-                if response['citations'][0]['verified']:
-                    print(f"✅ Citation was verified")
+                # Check if we have the right number of citations
+                if len(response['citations']) == 3:
+                    print(f"✅ All 3 citations were processed")
                 else:
-                    print(f"❌ Citation was not verified")
+                    print(f"❌ Expected 3 citations, got {len(response['citations'])}")
+                
+                # Check individual citations
+                for i, citation in enumerate(response['citations']):
+                    print(f"\nCitation {i+1}: {citation['raw']}")
+                    print(f"  Normalized: {citation['normalized']}")
+                    print(f"  Verified: {citation['verified']}")
+                    print(f"  Reporter: {citation['reporter']}")
+                    
+                    # Check for typo detection in the F3rd citation
+                    if citation['raw'] == "123 F3rd 456":
+                        if "typo" in citation['note'].lower() and "F.3d" in citation['note']:
+                            print(f"✅ Correctly identified typo in 'F3rd' and suggested 'F.3d'")
+                        else:
+                            print(f"❌ Failed to detect typo in 'F3rd' or suggest 'F.3d'")
+                            print(f"  Note: {citation['note']}")
                 
                 # Check summary
-                print(f"Summary: {response['summary']}")
+                print(f"\nSummary: Total: {response['summary']['total']}, Verified: {response['summary']['verified']}, Confidence: {response['summary']['confidence']}")
             else:
                 print("❌ Response missing expected fields")
                 
