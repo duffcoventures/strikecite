@@ -40,7 +40,7 @@ const HomePage = () => {
           <div className="hero-visual">
             <div className="citation-validation-demo">
               <div className="demo-item verified">
-                <span className="citation">Doe v. Wade, 410 U.S. 113 (1973)</span>
+                <span className="citation">Roe v. Wade, 410 U.S. 113 (1973)</span>
                 <span className="status verified">✓ Valid</span>
               </div>
               <div className="demo-item warning">
@@ -116,7 +116,7 @@ const HomePage = () => {
           </div>
           
           <p className="cases-footer">
-            We update against CourtListener's database of 8.9 million US legal opinions, updated daily with new federal and state court decisions.
+            We validate against 8.9 million US legal opinions, updated daily with new federal and state court decisions.
           </p>
         </div>
       </section>
@@ -144,7 +144,7 @@ const HomePage = () => {
             <div className="step-item">
               <div className="step-number">2</div>
               <h4>Instant Validation</h4>
-              <p>We automatically check every citation against CourtListener's database of 
+              <p>We automatically check every citation against our comprehensive database of 
               8.9 million US legal opinions, updated daily with new federal and state 
               court decisions.</p>
               <div className="step-visual">
@@ -259,7 +259,7 @@ const HomePage = () => {
           </Link>
           
           <p className="cta-disclaimer">
-            Run by legal technology experts, data from legal databases.
+            Trusted by legal professionals nationwide.
           </p>
         </div>
       </section>

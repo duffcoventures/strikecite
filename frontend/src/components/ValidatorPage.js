@@ -9,24 +9,9 @@ const ValidatorPage = () => {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [uploadMethod, setUploadMethod] = useState("pdf"); // "pdf", "text", "json"
-  const [jsonInput, setJsonInput] = useState("");
-  const [reporters, setReporters] = useState([]);
+  const [uploadMethod, setUploadMethod] = useState("pdf"); // "pdf" or "text"
   const [dragActive, setDragActive] = useState(false);
   const [uploadedFile, setUploadedFile] = useState(null);
-
-  useEffect(() => {
-    loadReporters();
-  }, []);
-
-  const loadReporters = async () => {
-    try {
-      const response = await axios.get(`${API}/reporters`);
-      setReporters(response.data);
-    } catch (err) {
-      console.error("Failed to load reporters:", err);
-    }
-  };
 
   const validatePDF = async (file) => {
     setLoading(true);
@@ -64,31 +49,6 @@ const ValidatorPage = () => {
       setResults(response.data);
     } catch (err) {
       setError(err.response?.data?.detail || "Validation failed");
-      console.error("Validation error:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const validateJSON = async () => {
-    if (!jsonInput.trim()) {
-      setError("Please enter citation data");
-      return;
-    }
-
-    setLoading(true);
-    setError("");
-    
-    try {
-      const lookupData = JSON.parse(jsonInput);
-      const response = await axios.post(`${API}/validate-citations`, lookupData);
-      setResults(response.data);
-    } catch (err) {
-      if (err instanceof SyntaxError) {
-        setError("Invalid JSON format");
-      } else {
-        setError(err.response?.data?.detail || "Validation failed");
-      }
       console.error("Validation error:", err);
     } finally {
       setLoading(false);
@@ -156,7 +116,6 @@ const ValidatorPage = () => {
     setResults(null);
     setError("");
     setText("");
-    setJsonInput("");
     setUploadedFile(null);
   };
 
@@ -209,7 +168,7 @@ const ValidatorPage = () => {
             <div className="method-icon">📄</div>
             <div className="method-text">
               <div className="method-title">Upload PDF Brief</div>
-              <div className="method-desc">Most common - upload your legal documents</div>
+              <div className="method-desc">Upload your legal documents directly</div>
             </div>
           </button>
           <button
@@ -219,21 +178,9 @@ const ValidatorPage = () => {
             <div className="method-icon">📝</div>
             <div className="method-text">
               <div className="method-title">Paste Text</div>
-              <div className="method-desc">Copy and paste document text directly</div>
+              <div className="method-desc">Copy and paste document text</div>
             </div>
           </button>
-          <div className="dev-only">
-            <button
-              onClick={() => setUploadMethod("json")}
-              className={`method-btn ${uploadMethod === "json" ? "active" : ""}`}
-            >
-              <div className="method-icon">⚙️</div>
-              <div className="method-text">
-                <div className="method-title">API Integration</div>
-                <div className="method-desc">For developers - direct citation data</div>
-              </div>
-            </button>
-          </div>
         </div>
 
         <div className="validator-content-legal">
@@ -319,38 +266,6 @@ const ValidatorPage = () => {
               </div>
             )}
 
-            {uploadMethod === "json" && (
-              <div className="json-upload-area dev-only">
-                <div className="json-input-container">
-                  <textarea
-                    value={jsonInput}
-                    onChange={(e) => setJsonInput(e.target.value)}
-                    placeholder='[{"citation":"410 U.S. 113","normalized_citations":["410 U.S. 113"],"start_index":0,"end_index":11,"status":200,"clusters":[]}]'
-                    className="json-input-legal"
-                  />
-                </div>
-                <div className="input-actions">
-                  <button
-                    onClick={validateJSON}
-                    disabled={loading || !jsonInput.trim()}
-                    className="btn-validate"
-                  >
-                    {loading ? (
-                      <>
-                        <div className="spinner"></div>
-                        Processing...
-                      </>
-                    ) : (
-                      "Process Citation Data"
-                    )}
-                  </button>
-                  <button onClick={clearAll} className="btn-clear">
-                    Clear
-                  </button>
-                </div>
-              </div>
-            )}
-
             {error && (
               <div className="error-message-legal">
                 <div className="error-icon">⚠️</div>
@@ -390,11 +305,6 @@ const ValidatorPage = () => {
                           <div className="citation-header-legal">
                             <div className="citation-text-legal">
                               <code className="citation-code-legal">{citation.raw}</code>
-                              {citation.normalized !== citation.raw && (
-                                <div className="citation-normalized-legal dev-only">
-                                  Normalized: <code>{citation.normalized}</code>
-                                </div>
-                              )}
                             </div>
                             <div className={`citation-status-legal ${citation.verified ? 'verified' : 'invalid'}`}>
                               {citation.verified ? (
@@ -415,9 +325,6 @@ const ValidatorPage = () => {
                             <div className="citation-meta-legal">
                               <span className="meta-item-legal">
                                 <strong>Reporter:</strong> {citation.reporter || "Unknown"}
-                              </span>
-                              <span className="meta-item-legal dev-only">
-                                <strong>Position:</strong> Characters {citation.start_char}-{citation.end_char}
                               </span>
                             </div>
                             

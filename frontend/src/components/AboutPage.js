@@ -23,35 +23,35 @@ const AboutPage = () => {
           </section>
 
           <section className="about-section">
-            <h2>Two-Layer Architecture</h2>
+            <h2>How It Works</h2>
             <div className="architecture-grid">
               <div className="layer-card">
-                <h3>Layer A: Validation Microservice</h3>
+                <h3>Comprehensive Database</h3>
                 <p>
-                  Our core validation engine processes LOOKUP_JSON data from 
-                  CourtListener API, providing detailed analysis of citation 
-                  accuracy, reporter recognition, and error detection.
+                  Our system validates citations against a comprehensive database of 
+                  8.9 million U.S. legal opinions, updated daily with new federal 
+                  and state court decisions.
                 </p>
                 <ul>
                   <li>149+ comprehensive legal reporters</li>
                   <li>Federal, Regional, State, and Specialized courts</li>
                   <li>Advanced typo detection and correction suggestions</li>
-                  <li>Confidence scoring and detailed error reporting</li>
+                  <li>Real-time validation against authoritative sources</li>
                 </ul>
               </div>
               
               <div className="layer-card">
-                <h3>Layer B: Complete Pipeline</h3>
+                <h3>Smart Validation</h3>
                 <p>
-                  End-to-end text processing that automatically extracts citations 
-                  from legal documents and validates them through our comprehensive 
-                  reporter database.
+                  Our intelligent system automatically extracts citations from 
+                  your documents and validates them against our comprehensive 
+                  legal database in seconds.
                 </p>
                 <ul>
-                  <li>Automatic citation extraction from text</li>
-                  <li>CourtListener API integration</li>
+                  <li>Automatic citation extraction from PDFs and text</li>
+                  <li>Instant validation and verification</li>
                   <li>Drag-and-drop file processing</li>
-                  <li>Bulk document validation</li>
+                  <li>Professional validation reports</li>
                 </ul>
               </div>
             </div>
@@ -80,15 +80,17 @@ const AboutPage = () => {
           </section>
 
           <section className="about-section">
-            <h2>Technology</h2>
+            <h2>Why Strike Cite?</h2>
             <p>
-              Built with modern web technologies for reliability and performance:
+              In an era where AI-generated legal content can include fabricated citations, 
+              professional verification has become essential. Strike Cite provides the 
+              confidence you need to file with certainty.
             </p>
             <ul>
-              <li><strong>Backend:</strong> FastAPI with MongoDB for high-performance data processing</li>
-              <li><strong>Frontend:</strong> React with responsive design for all devices</li>
-              <li><strong>Data:</strong> Comprehensive legal reporter database with regular updates</li>
-              <li><strong>Integration:</strong> RESTful API for easy integration into existing workflows</li>
+              <li><strong>Prevent Sanctions:</strong> Avoid embarrassing citation errors that could lead to court sanctions</li>
+              <li><strong>Professional Competence:</strong> Maintain the highest standards of legal practice</li>
+              <li><strong>Challenge Opponents:</strong> Quickly verify opposing counsel's citations</li>
+              <li><strong>Save Time:</strong> Instant validation instead of manual checking</li>
             </ul>
           </section>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const Header = ({ devMode, setDevMode }) => {
+const Header = () => {
   const location = useLocation();
 
   return (
@@ -20,13 +20,7 @@ const Header = ({ devMode, setDevMode }) => {
           to="/app" 
           className={location.pathname === "/app" ? "active" : ""}
         >
-          Validate
-        </Link>
-        <Link 
-          to="/docs" 
-          className={location.pathname === "/docs" ? "active" : ""}
-        >
-          API Docs
+          Validate Citations
         </Link>
         <Link 
           to="/about" 
@@ -34,15 +28,6 @@ const Header = ({ devMode, setDevMode }) => {
         >
           About
         </Link>
-        <div className="dev-toggle-container">
-          <button 
-            className={`dev-toggle ${devMode ? 'active' : ''}`}
-            onClick={() => setDevMode(!devMode)}
-            title="Toggle Developer Mode"
-          >
-            DEV
-          </button>
-        </div>
       </nav>
     </header>
   );
