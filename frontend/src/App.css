@@ -62,32 +62,6 @@ body {
   color: #DC2626;
 }
 
-.dev-toggle-container {
-  margin-left: 1rem;
-}
-
-.dev-toggle {
-  background: #f3f4f6;
-  color: #6b7280;
-  border: 1px solid #d1d5db;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.dev-toggle:hover {
-  background: #e5e7eb;
-}
-
-.dev-toggle.active {
-  background: #3b82f6;
-  color: white;
-  border-color: #3b82f6;
-}
-
 /* Legal Home Page Styles */
 .home-page {
   width: 100%;
