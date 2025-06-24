@@ -88,17 +88,42 @@ def validate_citations(lookup_json: List[Dict[str, Any]]) -> ValidationResult:
         else:
             normalized = element.get('citation', '')
         
-        # 2. Identify reporter
+        # 2. Identify reporter using enhanced matching logic
         reporter_abbrev = None
         citation_text = normalized or element.get('citation', '')
         
-        # Extract reporter abbreviation from citation
-        # Common patterns: "123 F.3d 456", "410 U.S. 113", etc.
+        # Extract reporter abbreviation from citation using multiple strategies
+        # Common patterns: "123 F.3d 456", "410 U.S. 113", "999 So. 2d 123", etc.
         parts = citation_text.split()
         if len(parts) >= 2:
+            # Try exact match first
             potential_reporter = parts[1].lower()
             if potential_reporter in REPORTER_LOOKUP:
                 reporter_abbrev = REPORTER_LOOKUP[potential_reporter]['abbreviation']
+            else:
+                # Try matching with more complex patterns
+                # Look for patterns like "F.3d", "S.E.2d", "N.W.3d", etc.
+                import re
+                reporter_pattern = r'([A-Z][a-z]*\.?\s*(?:2d|3d|App\.?|Supp\.?|Ct\.?)?)'
+                match = re.search(reporter_pattern, citation_text)
+                if match:
+                    potential_match = match.group(1).strip().lower()
+                    if potential_match in REPORTER_LOOKUP:
+                        reporter_abbrev = REPORTER_LOOKUP[potential_match]['abbreviation']
+                
+                # If still no match, try partial matching for common abbreviations
+                if not reporter_abbrev:
+                    for reporter in LEGAL_REPORTERS:
+                        if reporter['abbreviation'].lower() in citation_text.lower():
+                            reporter_abbrev = reporter['abbreviation']
+                            break
+                        # Check aliases too
+                        for alias in reporter['aliases']:
+                            if alias.lower() in citation_text.lower():
+                                reporter_abbrev = reporter['abbreviation']
+                                break
+                        if reporter_abbrev:
+                            break
         
         # 3. Verification status
         verified = element.get('status') == 200
@@ -108,24 +133,39 @@ def validate_citations(lookup_json: List[Dict[str, Any]]) -> ValidationResult:
         if verified and element.get('clusters') and len(element['clusters']) > 0:
             source_url = element['clusters'][0].get('url')
         
-        # 5. Generate note for unverified citations
+        # 5. Generate detailed note for unverified citations
         note = ""
         if not verified:
-            if reporter_abbrev is None:
-                note = "reporter not recognized"
-            elif element.get('status') == 404:
-                note = "not found in CourtListener"
-            else:
-                note = f"status {element.get('status', 'unknown')}"
+            status_code = element.get('status', 'unknown')
             
-            # Check for common mistakes
-            if reporter_abbrev is None and len(parts) >= 2:
-                potential_mistakes = parts[1]
-                for reporter in LEGAL_REPORTERS:
-                    for mistake in reporter.get('common_citation_mistakes', []):
-                        if potential_mistakes.lower() in mistake.lower():
-                            note = f"possible typo: {mistake[:15]}..."
+            if status_code == 404:
+                note = "not found in CourtListener database"
+            elif status_code == 400:
+                note = "invalid citation format"
+            elif status_code == 500:
+                note = "server error during validation"
+            else:
+                note = f"validation failed (status {status_code})"
+            
+            # Enhanced error detection using common mistakes database
+            if reporter_abbrev:
+                reporter_data = next((r for r in LEGAL_REPORTERS if r['abbreviation'] == reporter_abbrev), None)
+                if reporter_data and reporter_data.get('common_citation_mistakes'):
+                    # Check if the raw citation matches any common mistake patterns
+                    raw_citation = element.get('citation', '').lower()
+                    for mistake in reporter_data['common_citation_mistakes']:
+                        if any(word in raw_citation for word in mistake.lower().split() if len(word) > 2):
+                            note = f"possible error: {mistake[:50]}..." if len(mistake) > 50 else f"possible error: {mistake}"
                             break
+            
+            # Check for common formatting errors
+            raw_citation = element.get('citation', '')
+            if 'f3rd' in raw_citation.lower():
+                note = "probable typo: 'F3rd' should be 'F.3d'"
+            elif 'f3d' in raw_citation.lower() and '.' not in raw_citation:
+                note = "missing period: should be 'F.3d'"
+            elif 'scotus' in raw_citation.lower():
+                note = "informal abbreviation: use proper reporter"
         
         validated_citation = ValidatedCitation(
             raw=element.get('citation', ''),
@@ -139,19 +179,24 @@ def validate_citations(lookup_json: List[Dict[str, Any]]) -> ValidationResult:
         )
         validated_citations.append(validated_citation)
     
-    # Calculate summary
+    # Calculate summary with enhanced confidence logic
     total = len(validated_citations)
     verified_count = sum(1 for c in validated_citations if c.verified)
     unverified_count = total - verified_count
     
     if total == 0:
         confidence = "low"
-    elif verified_count / total >= 0.9:
-        confidence = "high"
-    elif verified_count / total >= 0.6:
-        confidence = "medium"
     else:
-        confidence = "low"
+        verification_ratio = verified_count / total
+        reporter_recognition_ratio = sum(1 for c in validated_citations if c.reporter) / total
+        
+        # Enhanced confidence calculation
+        if verification_ratio >= 0.9 and reporter_recognition_ratio >= 0.8:
+            confidence = "high"
+        elif verification_ratio >= 0.6 and reporter_recognition_ratio >= 0.6:
+            confidence = "medium"  
+        else:
+            confidence = "low"
     
     summary = ValidationSummary(
         total=total,
