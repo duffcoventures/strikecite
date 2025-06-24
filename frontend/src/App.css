@@ -20,11 +20,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Dev mode toggle */
-.dev-only { display: none; }
-body.dev .dev-only { display: block; }
-.App.dev .dev-only { display: block; }
-
 /* Header/Navigation */
 .topnav {
   display: flex;
