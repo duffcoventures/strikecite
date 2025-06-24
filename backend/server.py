@@ -186,7 +186,7 @@ async def validate_text_endpoint(request: TextValidationRequest):
     """
     try:
         # Step 1: Call CourtListener API
-        courtlistener_url = "https://www.courtlistener.com/api/rest/v3/citation-lookup/"
+        courtlistener_url = "https://www.courtlistener.com/api/rest/v4/citation-lookup/"
         headers = {
             "Authorization": f"Token {os.environ.get('COURTLISTENER_API_KEY', '')}",
             "Content-Type": "application/json"
