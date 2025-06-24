@@ -10,30 +10,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9fafb;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .App {
   min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Professional typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: -0.025em;
 }
 
 /* Custom scrollbar for text areas */
 textarea::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 textarea::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
+  background: #f8f9fa;
+  border-radius: 3px;
 }
 
 textarea::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 4px;
+  background: #d1d5db;
+  border-radius: 3px;
 }
 
 textarea::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
+  background: #9ca3af;
 }
 
 /* Animation for loading spinner */
@@ -50,53 +59,94 @@ textarea::-webkit-scrollbar-thumb:hover {
   animation: spin 1s linear infinite;
 }
 
-/* Focus states for better accessibility */
+/* Focus states - minimal and professional */
 button:focus,
 textarea:focus,
 input:focus {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #000000;
   outline-offset: 2px;
 }
 
-/* Hover effects */
-.hover-lift:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+/* Button hover effects */
+button {
+  transition: all 0.15s ease;
+}
+
+/* Professional link styling */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #374151;
+  text-decoration: underline;
 }
 
 /* Citation text styling */
 .citation-text {
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-  background-color: #f8f9fa;
+  font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background-color: #f9fafb;
   padding: 2px 4px;
   border-radius: 3px;
-  border: 1px solid #e9ecef;
+  border: 1px solid #e5e7eb;
+  font-size: 0.875rem;
 }
 
-/* Status badges */
+/* Status indicators */
 .status-verified {
   background-color: #dcfce7;
   color: #166534;
-  border: 1px solid #bbf7d0;
+  border-color: #bbf7d0;
 }
 
-.status-unverified {
+.status-invalid {
   background-color: #fef2f2;
   color: #dc2626;
-  border: 1px solid #fecaca;
+  border-color: #fecaca;
+}
+
+/* Alert styling */
+.alert-error {
+  background-color: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+
+.alert-warning {
+  background-color: #fffbeb;
+  border-color: #fed7aa;
+  color: #92400e;
+}
+
+.alert-success {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+  color: #166534;
+}
+
+/* Drag and drop styling */
+.drag-active {
+  border-color: #000000 !important;
+  background-color: #f9fafb;
 }
 
 /* Responsive design improvements */
 @media (max-width: 768px) {
   .grid-cols-4 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
   }
   
   .grid-cols-2 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   
-  .px-4 {
+  .lg\\:grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  .px-6 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -111,65 +161,118 @@ input:focus {
   .print-break {
     page-break-after: always;
   }
+  
+  body {
+    color: #000000;
+    background: #ffffff;
+  }
 }
 
-/* Dark mode support (optional) */
-@media (prefers-color-scheme: dark) {
-  /* Add dark mode styles if needed */
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  .border-gray-200 {
+    border-color: #000000;
+  }
+  
+  .text-gray-600 {
+    color: #374151;
+  }
 }
 
-/* Custom utility classes */
-.text-balance {
-  text-wrap: balance;
+/* Professional form styling */
+textarea, input {
+  font-family: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
+textarea:focus, input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 1px #000000;
+}
+
+/* Monospace font for code/citations */
+.font-mono {
+  font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+/* Smooth transitions */
 .transition-all {
-  transition: all 0.3s ease;
+  transition: all 0.15s ease;
 }
 
-/* Error and success states */
-.error-border {
-  border-color: #ef4444 !important;
-  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+.transition-colors {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
 }
 
-.success-border {
-  border-color: #10b981 !important;
-  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+.transition-shadow {
+  transition: box-shadow 0.15s ease;
 }
 
-/* Loading states */
+/* Professional hover effects */
+.hover\\:shadow-sm:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Loading state styling */
 .loading-overlay {
   position: relative;
+  pointer-events: none;
+  opacity: 0.6;
 }
 
-.loading-overlay::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Professional borders */
+.border {
+  border-width: 1px;
 }
 
-/* Citation highlighting */
-.citation-highlight {
-  background-color: #fef3c7;
-  padding: 1px 3px;
-  border-radius: 2px;
-  border-bottom: 2px solid #f59e0b;
+.border-2 {
+  border-width: 2px;
 }
 
-.citation-highlight.verified {
-  background-color: #dcfce7;
-  border-bottom-color: #10b981;
+.border-dashed {
+  border-style: dashed;
 }
 
-.citation-highlight.unverified {
-  background-color: #fef2f2;
-  border-bottom-color: #ef4444;
+/* Typography refinements */
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Professional spacing */
+.space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+/* Clean grid layouts */
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
