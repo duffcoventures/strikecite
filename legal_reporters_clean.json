@@ -1,0 +1,162 @@
+[
+  {
+    "abbreviation": "U.S.",
+    "aliases": ["US", "U. S."],
+    "description": "United States Reports - the official reporter for U.S. Supreme Court decisions. Published continuously without series (e.g., volume 1 in 1790 through present). Cited as 'U.S.' and treated as the most authoritative citation for Supreme Court cases.",
+    "court_level": "Supreme Court",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["USSC (informal shorthand for U.S. Supreme Court)", "omitting periods (US instead of U.S.)"],
+    "placeholder_examples": ["410 U.S. 113 (1973)", "140 U.S. 545 (1891)"]
+  },
+  {
+    "abbreviation": "S. Ct.",
+    "aliases": ["S Ct", "Sup. Ct."],
+    "description": "Supreme Court Reporter - an unofficial reporter by West publishing U.S. Supreme Court opinions. Uses 'S. Ct.' abbreviation and includes decisions not yet in U.S. Reports. Parallel cites to U.S. or L. Ed. are often provided.",
+    "court_level": "Supreme Court",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["Missing period in abbreviation (S Ct instead of S. Ct.)", "Using SCOTUS in formal citation"],
+    "placeholder_examples": ["91 S. Ct. 2100 (1971)", "135 S. Ct. 2726 (2015)"]
+  },
+  {
+    "abbreviation": "L. Ed.",
+    "aliases": ["L Ed"],
+    "description": "United States Supreme Court Reports, Lawyers' Edition - an unofficial reporter for Supreme Court cases, often cited in a second series (L. Ed. 2d). Abbreviated as 'L. Ed.' for first series (1882-1956) and 'L. Ed. 2d' thereafter.",
+    "court_level": "Supreme Court",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["Omitting series designation (e.g., citing L. Ed. when L. Ed. 2d is intended)", "Missing punctuation"],
+    "placeholder_examples": ["27 L. Ed. 1042 (1883)", "92 L. Ed. 2d 798 (1987)"]
+  },
+  {
+    "abbreviation": "L. Ed. 2d",
+    "aliases": ["L.Ed.2d", "L Ed 2d"],
+    "description": "Lawyers' Edition, Second Series - continuation of the Lawyers' Edition reporter for U.S. Supreme Court cases. Covers 1956 to present. Often used as a parallel citation alongside U.S. and S. Ct.",
+    "court_level": "Supreme Court",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["Citing as L. Ed. without the series number when second series is intended"],
+    "placeholder_examples": ["103 L. Ed. 2d 80 (1989)", "139 L. Ed. 2d 842 (1997)"]
+  },
+  {
+    "abbreviation": "F.",
+    "aliases": ["Fed."],
+    "description": "Federal Reporter - reports decisions from U.S. Courts of Appeals and other federal courts. First series (1880-1924), second series F.2d (1924-1993), third series F.3d (1993-present).",
+    "court_level": "Appeals",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["F3d instead of F.3d", "Missing periods in abbreviation"],
+    "placeholder_examples": ["945 F.3d 1234 (9th Cir. 2019)", "123 F.2d 456 (2d Cir. 1941)"]
+  },
+  {
+    "abbreviation": "F.2d",
+    "aliases": ["F2d"],
+    "description": "Federal Reporter, Second Series - covers U.S. Courts of Appeals decisions from 1924 to 1993.",
+    "court_level": "Appeals",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["F2d instead of F.2d", "Missing periods"],
+    "placeholder_examples": ["789 F.2d 123 (5th Cir. 1986)", "456 F.2d 789 (D.C. Cir. 1972)"]
+  },
+  {
+    "abbreviation": "F.3d",
+    "aliases": ["F3d"],
+    "description": "Federal Reporter, Third Series - covers U.S. Courts of Appeals decisions from 1993 to present.",
+    "court_level": "Appeals",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["F3d instead of F.3d", "Missing periods"],
+    "placeholder_examples": ["123 F.3d 456 (1st Cir. 2020)", "789 F.3d 012 (11th Cir. 2015)"]
+  },
+  {
+    "abbreviation": "F. Supp.",
+    "aliases": ["F.Supp.", "F Supp"],
+    "description": "Federal Supplement - reports decisions from U.S. District Courts. First series (1932-1998), second series F. Supp. 2d (1998-2014), third series F. Supp. 3d (2014-present).",
+    "court_level": "District",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["Missing periods", "F Supp instead of F. Supp."],
+    "placeholder_examples": ["123 F. Supp. 456 (S.D.N.Y. 1995)", "789 F. Supp. 012 (N.D. Cal. 1990)"]
+  },
+  {
+    "abbreviation": "F. Supp. 2d",
+    "aliases": ["F.Supp.2d", "F Supp 2d"],
+    "description": "Federal Supplement, Second Series - covers U.S. District Court decisions from 1998 to 2014.",
+    "court_level": "District",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["Missing periods", "Incorrect series number"],
+    "placeholder_examples": ["456 F. Supp. 2d 789 (E.D. Va. 2006)", "123 F. Supp. 2d 456 (W.D. Tex. 2001)"]
+  },
+  {
+    "abbreviation": "F. Supp. 3d",
+    "aliases": ["F.Supp.3d", "F Supp 3d"],
+    "description": "Federal Supplement, Third Series - covers U.S. District Court decisions from 2014 to present.",
+    "court_level": "District",
+    "jurisdiction": "Federal",
+    "states": [],
+    "common_citation_mistakes": ["Missing periods", "Using older series designation"],
+    "placeholder_examples": ["789 F. Supp. 3d 123 (D. Mass. 2020)", "456 F. Supp. 3d 789 (S.D. Fla. 2018)"]
+  },
+  {
+    "abbreviation": "P.",
+    "aliases": ["Pac."],
+    "description": "Pacific Reporter - covers state court decisions from western states. First series (1883-1931), second series P.2d (1931-2000), third series P.3d (2000-present).",
+    "court_level": "State Supreme/Appeals",
+    "jurisdiction": "State",
+    "states": ["AK", "AZ", "CA", "CO", "HI", "ID", "KS", "MT", "NV", "NM", "OK", "OR", "UT", "WA", "WY"],
+    "common_citation_mistakes": ["Missing periods", "P3d instead of P.3d"],
+    "placeholder_examples": ["123 P.3d 456 (Cal. 2018)", "789 P.2d 012 (Wash. 1995)"]
+  },
+  {
+    "abbreviation": "P.2d",
+    "aliases": ["P2d"],
+    "description": "Pacific Reporter, Second Series - covers western state court decisions from 1931 to 2000.",
+    "court_level": "State Supreme/Appeals",
+    "jurisdiction": "State",
+    "states": ["AK", "AZ", "CA", "CO", "HI", "ID", "KS", "MT", "NV", "NM", "OK", "OR", "UT", "WA", "WY"],
+    "common_citation_mistakes": ["P2d instead of P.2d", "Missing periods"],
+    "placeholder_examples": ["456 P.2d 789 (Or. 1985)", "123 P.2d 456 (Colo. 1970)"]
+  },
+  {
+    "abbreviation": "P.3d",
+    "aliases": ["P3d"],
+    "description": "Pacific Reporter, Third Series - covers western state court decisions from 2000 to present.",
+    "court_level": "State Supreme/Appeals",
+    "jurisdiction": "State",
+    "states": ["AK", "AZ", "CA", "CO", "HI", "ID", "KS", "MT", "NV", "NM", "OK", "OR", "UT", "WA", "WY"],
+    "common_citation_mistakes": ["P3d instead of P.3d", "Missing periods"],
+    "placeholder_examples": ["789 P.3d 123 (Alaska 2020)", "456 P.3d 789 (Utah 2016)"]
+  },
+  {
+    "abbreviation": "N.E.",
+    "aliases": ["N.E.", "NE"],
+    "description": "North Eastern Reporter - covers northeastern state court decisions. First series (1885-1936), second series N.E.2d (1936-2003), third series N.E.3d (2003-present).",
+    "court_level": "State Supreme/Appeals",
+    "jurisdiction": "State",
+    "states": ["IL", "IN", "MA", "NY", "OH"],
+    "common_citation_mistakes": ["NE instead of N.E.", "Missing periods"],
+    "placeholder_examples": ["123 N.E.3d 456 (Ohio 2020)", "789 N.E.2d 012 (Mass. 1998)"]
+  },
+  {
+    "abbreviation": "N.E.2d",
+    "aliases": ["NE2d", "N.E.2d"],
+    "description": "North Eastern Reporter, Second Series - covers northeastern state court decisions from 1936 to 2003.",
+    "court_level": "State Supreme/Appeals",
+    "jurisdiction": "State",
+    "states": ["IL", "IN", "MA", "NY", "OH"],
+    "common_citation_mistakes": ["NE2d instead of N.E.2d", "Missing periods"],
+    "placeholder_examples": ["456 N.E.2d 789 (Ill. 1985)", "123 N.E.2d 456 (N.Y. 1970)"]
+  },
+  {
+    "abbreviation": "N.E.3d",
+    "aliases": ["NE3d", "N.E.3d"],
+    "description": "North Eastern Reporter, Third Series - covers northeastern state court decisions from 2003 to present.",
+    "court_level": "State Supreme/Appeals",
+    "jurisdiction": "State",
+    "states": ["IL", "IN", "MA", "NY", "OH"],
+    "common_citation_mistakes": ["NE3d instead of N.E.3d", "Missing periods"],
+    "placeholder_examples": ["789 N.E.3d 123 (Ind. 2020)", "456 N.E.3d 789 (Ohio 2018)"]
+  }
+]
