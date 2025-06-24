@@ -1,0 +1,2269 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;}
+{\*\expandedcolortbl;;\cssrgb\c6700\c6700\c6700;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 [\
+  \{\
+    "abbreviation": "U.S.",\
+    "aliases": ["US", "U. S."],\
+    "description": "United States Reports \'96 the official reporter for U.S. Supreme Court decisions [oai_citation:0\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=U). Published continuously without series (e.g., volume 1 in 1790 through present). Cited as \'93U.S.\'94 and treated as the most authoritative citation for Supreme Court cases.",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["USSC (informal shorthand for U.S. Supreme Court)", "omitting periods (\\"US\\" instead of \\"U.S.\\")"],\
+    "placeholder_examples": ["410 U.S. 113 (1973)", "140 U.S. 545 (1891)"]\
+  \},\
+  \{\
+    "abbreviation": "S. Ct.",\
+    "aliases": ["S Ct", "Sup. Ct."],\
+    "description": "Supreme Court Reporter \'96 an unofficial reporter by West publishing U.S. Supreme Court opinions [oai_citation:1\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,S%2FJ%20%E2%80%94%20%20242). Uses \'93S. Ct.\'94 abbreviation and includes decisions not yet in U.S. Reports. Parallel cites to U.S. or L. Ed. are often provided.",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing period in abbreviation (\\"S Ct\\" instead of \\"S. Ct.\\")", "Using \\"SCOTUS\\" in formal citation"],\
+    "placeholder_examples": ["91 S. Ct. 2100 (1971)", "135 S. Ct. 2726 (2015)"]\
+  \},\
+  \{\
+    "abbreviation": "L. Ed.",\
+    "aliases": ["L Ed"],\
+    "description": "United States Supreme Court Reports, Lawyers\'92 Edition \'96 an unofficial reporter for Supreme Court cases, often cited in a second series (L. Ed. 2d). Abbreviated as \'93L. Ed.\'94 for first series (1882\'961956) and \'93L. Ed. 2d\'94 thereafter.",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting series designation (e.g., citing L. Ed. when L. Ed. 2d is intended)", "Missing punctuation"],\
+    "placeholder_examples": ["27 L. Ed. 1042 (1883)", "92 L. Ed. 2d 798 (1987)"]\
+  \},\
+  \{\
+    "abbreviation": "L. Ed. 2d",\
+    "aliases": ["L.Ed.2d", "L Ed 2d"],\
+    "description": "Lawyers\'92 Edition, Second Series \'96 continuation of the Lawyers\'92 Edition reporter for U.S. Supreme Court cases [oai_citation:2\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,S%2FJ%20%E2%80%94%20%20242). Covers 1956 to present. Often used as a parallel citation alongside U.S. and S. Ct.",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Citing as \\"L. Ed.\\" without the series number when second series is intended"],\
+    "placeholder_examples": ["103 L. Ed. 2d 80 (1989)", "139 L. Ed. 2d 842 (1997)"]\
+  \},\
+  \{\
+    "abbreviation": "F.",\
+    "aliases": [],\
+    "description": "Federal Reporter, First Series \'96 published decisions of the U.S. Courts of Appeals (and some older federal courts) from 1880 to 1924 [oai_citation:3\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=Larger%20reporters%20are%20separated%20into,Bankruptcy%20Reporter%2C%20and%20Federal%20Appendix). Abbreviated \'93F.\'94 (no series number). Post-1900 volumes (e.g., F. 122 in 1902) are included.",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Misidentifying as \\"F.1d\\" (there is no \\"1d\\" designation; first series has no numeral)"],\
+    "placeholder_examples": ["160 F. 593 (2d Cir. 1908)", "300 F. 1 (3d Cir. 1924)"]\
+  \},\
+  \{\
+    "abbreviation": "F.2d",\
+    "aliases": ["F. 2d", "F2d"],\
+    "description": "Federal Reporter, Second Series \'96 U.S. Courts of Appeals cases from 1925 to 1993 [oai_citation:4\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PA%20%E2%80%94%20Professional%20association). It succeeded the first series and is abbreviated \'93F.2d.\'94",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Spacing errors (e.g., \\"F.2d\\" written as \\"F. 2d\\")"],\
+    "placeholder_examples": ["410 F.2d 113 (5th Cir. 1969)", "999 F.2d 746 (Fed. Cir. 1993)"]\
+  \},\
+  \{\
+    "abbreviation": "F.3d",\
+    "aliases": ["F. 3d", "F3d", "F3rd"],\
+    "description": "Federal Reporter, Third Series \'96 U.S. Courts of Appeals cases from 1993 to approximately 2021 [oai_citation:5\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PA%20%E2%80%94%20Professional%20association). Abbreviated \'93F.3d.\'94",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"F3rd\\" instead of \\"F.3d\\" [oai_citation:6\'87coloradocommunitymedia.com](https://coloradocommunitymedia.com/2012/01/09/colorado-appellate-courts-adopt-new-case-citation-format/#:~:text=A%20citation%20to%20an%20appellate,the%2035th%20issued%20by%20each)", "omitting the period (\\"F3d\\")"],\
+    "placeholder_examples": ["550 F.3d 422 (6th Cir. 2008)", "999 F.3d 987 (10th Cir. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "F.4th",\
+    "aliases": ["F. 4th", "F4th"],\
+    "description": "Federal Reporter, Fourth Series \'96 current series for published U.S. Courts of Appeals cases, beginning in 2021 after F.3d volume numbers were exhausted. Abbreviated \'93F.4th.\'94",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting the period (\\"F4th\\")", "Misidentifying as \\"F.3d\\" out of habit"],\
+    "placeholder_examples": ["1 F.4th 1 (1st Cir. 2021)", "20 F.4th 769 (4th Cir. 2022)"]\
+  \},\
+  \{\
+    "abbreviation": "Fed. App\'92x",\
+    "aliases": ["Fed. Appx", "F. App'x", "F. Appx"],\
+    "description": "Federal Appendix \'96 a now-discontinued reporter for selected unpublished U.S. Courts of Appeals opinions (2001\'962021). Abbreviated \'93Fed. App\'92x\'94 [oai_citation:7\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,). Citations to this reporter indicate the decision was not published in F.3d or F.4th.",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing the apostrophe (\\"Fed. Appx\\" instead of \\"Fed. App\'92x\\") [oai_citation:8\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,)"],\
+    "placeholder_examples": ["123 Fed. App\'92x 456 (9th Cir. 2005)", "999 Fed. App\'92x 1 (2d Cir. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "U.S. App. D.C.",\
+    "aliases": ["App. D.C."],\
+    "description": "Reports of the Court of Appeals for the District of Columbia Circuit \'96 an official reporter for D.C. Circuit cases (abbreviated \'93U.S. App. D.C.\'94 or sometimes just \'93App. D.C.\'94). Used in parallel with F.2d for D.C. Circuit cases roughly 1933\'961971. For example, 123 U.S. App. D.C. 56 corresponds to a D.C. Circuit case [oai_citation:9\'87courtlistener.com](https://www.courtlistener.com/c/ct-intl-trade/13/?page=2#:~:text=,00297.%20Carnation).",\
+    "court_level": "Federal Court of Appeals (D.C. Circuit)",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using only \\"App. D.C.\\" without U.S. designation (informal but accepted in some sources)", "confusing App. D.C. with the D.C. Court of Appeals (a local court)"],\
+    "placeholder_examples": ["123 U.S. App. D.C. 56, 351 F.2d 489 (D.C. Cir. 1965)"]\
+  \},\
+  \{\
+    "abbreviation": "F. Supp.",\
+    "aliases": ["F Supp", "Fed. Supp."],\
+    "description": "Federal Supplement, First Series \'96 published decisions of U.S. District Courts from 1932 to 1998 [oai_citation:10\'87libraryguides.law.uic.edu](https://libraryguides.law.uic.edu/c.php?g=1386543&p=10260668#:~:text=Bluebook%20Guide%3A%20Federal%20Cases%20,4%29%3B%20Year%20the%20case). Abbreviated \'93F. Supp.\'94 It includes trial-level federal decisions, often cited when appellate decisions are unavailable.",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting the period after \\"F\\" or \\"Supp\\""],\
+    "placeholder_examples": ["30 F. Supp. 2 (D. Mass. 1939)", "999 F. Supp. 123 (S.D.N.Y. 1997)"]\
+  \},\
+  \{\
+    "abbreviation": "F. Supp. 2d",\
+    "aliases": ["F. Supp.2d", "F Supp 2d"],\
+    "description": "Federal Supplement, Second Series \'96 U.S. District Court decisions from 1998 to ~2014. Abbreviated \'93F. Supp. 2d.\'94 Continues coverage of federal trial courts after F. Supp. volumes were exhausted.",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing space or period (\\"F.Supp.2d\\")"],\
+    "placeholder_examples": ["100 F. Supp. 2d 10 (E.D. Pa. 2000)"]\
+  \},\
+  \{\
+    "abbreviation": "F. Supp. 3d",\
+    "aliases": ["F. Supp.3d", "F Supp 3d"],\
+    "description": "Federal Supplement, Third Series \'96 U.S. District Court decisions from ~2014 to present. Abbreviated \'93F. Supp. 3d.\'94 Currently the active series for published federal trial court opinions.",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Referencing as F. Supp. 2d out of habit"],\
+    "placeholder_examples": ["250 F. Supp. 3d 775 (N.D. Cal. 2017)"]\
+  \},\
+  \{\
+    "abbreviation": "F.R.D.",\
+    "aliases": [],\
+    "description": "Federal Rules Decisions \'96 a reporter for U.S. District Court decisions focusing on procedural rules (especially civil procedure and evidence). Abbreviated \'93F.R.D.\'94 Published decisions often involve interpretation of federal rules (e.g., discovery rulings).",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Mis-citing as \\"Fed. R. Dec.\\" or similar non-standard abbreviations"],\
+    "placeholder_examples": ["85 F.R.D. 127 (S.D.N.Y. 1980)", "250 F.R.D. 402 (D. Md. 2008)"]\
+  \},\
+  \{\
+    "abbreviation": "B.R.",\
+    "aliases": ["Bankr.", "Bkr."],\
+    "description": "Bankruptcy Reporter \'96 decisions of the U.S. Bankruptcy Courts [oai_citation:11\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,). Abbreviated \'93B.R.\'94 Covers bankruptcy opinions since the 1980s, published by West as part of the National Reporter System.",\
+    "court_level": "Federal Bankruptcy Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"Bankr.\\" instead of official abbreviation B.R. (though \\"Bankr.\\" may appear in some contexts)"],\
+    "placeholder_examples": ["50 B.R. 5 (Bankr. N.D. Ill. 1985)", "321 B.R. 133 (Bankr. D. Colo. 2005)"]\
+  \},\
+  \{\
+    "abbreviation": "Fed. Cl.",\
+    "aliases": ["Fed. Cl. Ct.", "Fed. Claims"],\
+    "description": "Federal Claims Reporter \'96 West\'92s reporter for the U.S. Court of Federal Claims (and previously U.S. Claims Court) [oai_citation:12\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,). Abbreviated \'93Fed. Cl.\'94 Covers 1982 to present. Decisions involve monetary claims against the U.S. government.",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Misidentifying as \\"Ct. Cl.\\" (which refers to the older official Court of Claims Reports)"],\
+    "placeholder_examples": ["10 Fed. Cl. 304 (1986)", "150 Fed. Cl. 662 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Ct. Cl.",\
+    "aliases": ["Ct Cl", "Ct. Claims"],\
+    "description": "Court of Claims Reports \'96 official reporter of the former U.S. Court of Claims, volumes spanning 1855\'961982. Abbreviated \'93Ct. Cl.\'94 These reports contain decisions on claims against the United States prior to the creation of the Federal Circuit [oai_citation:13\'87citeblog.access-to-law.com](https://citeblog.access-to-law.com/?tag=neutral-citations-2#:~:text=Overall%2C%20the%20view%20is%20disappointing,Reuters%20produces%20and%20sells%20volumes).",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"Fed. Cl.\\" for pre-1982 cases that are officially in Ct. Cl. reports"],\
+    "placeholder_examples": ["150 Ct. Cl. 1 (1960)", "224 Ct. Cl. 744 (1980)"]\
+  \},\
+  \{\
+    "abbreviation": "C.C.P.A.",\
+    "aliases": ["Cust. & Pat. App.", "C.C.P.A. (Cust. & Pat. App.)"],\
+    "description": "Court of Customs and Patent Appeals Reports \'96 cases from the former U.S. Court of Customs and Patent Appeals (abbreviated \'93C.C.P.A.\'94). Covered patent and customs appeals until the court merged into the Federal Circuit in 1982. Often cited with parallel F.2d if available.",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Misreading the abbreviation (e.g., interpreting C.C.P.A. as a state court)"],\
+    "placeholder_examples": ["70 C.C.P.A. 102, 496 F.2d 876 (C.C.P.A. 1974)"]\
+  \},\
+  \{\
+    "abbreviation": "M.J.",\
+    "aliases": ["MJ"],\
+    "description": "Military Justice Reporter \'96 contains decisions of the U.S. Court of Appeals for the Armed Forces (and its predecessor, the Court of Military Appeals) [oai_citation:14\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Military%20Appeals%20%28C,date%20M.J). Abbreviated \'93M.J.\'94 Began in 1975 and continues to present, covering military appellate decisions.",\
+    "court_level": "Federal Specialized Court (Military Appeals)",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting periods (\\"MJ\\" instead of \\"M.J.\\")"],\
+    "placeholder_examples": ["10 M.J. 206 (C.M.A. 1981)", "80 M.J. 129 (C.A.A.F. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "C.M.R.",\
+    "aliases": ["CMR"],\
+    "description": "Court-Martial Reports \'96 predecessor reporter for military appellate decisions (1951\'961975) [oai_citation:15\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Military%20Appeals%20Reports,1975%20C.M.R). Abbreviated \'93C.M.R.\'94 Covered decisions of the Boards of Review and early Court of Military Appeals before the M.J. reporter began.",\
+    "court_level": "Federal Specialized Court (Military Appeals)",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Confusing C.M.R. with M.J. for post-1975 cases"],\
+    "placeholder_examples": ["5 C.M.R. 50 (C.M.A. 1952)"]\
+  \},\
+  \{\
+    "abbreviation": "C.M.A.",\
+    "aliases": [],\
+    "description": "Court of Military Appeals Reports \'96 official reports of the U.S. Court of Military Appeals (now CAAF) from 1951\'961975 [oai_citation:16\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Military%20Appeals%20%28C,date%20M.J). Abbreviated \'93C.M.A.\'94 Often used in conjunction with C.M.R. or M.J. citations (e.g., 25 C.M.A. 300).",\
+    "court_level": "Federal Specialized Court (Military Appeals)",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using C.M.A. as a court identifier instead of a reporter in citations"],\
+    "placeholder_examples": ["24 C.M.A. 108 (1975)"]\
+  \},\
+  \{\
+    "abbreviation": "Vet. App.",\
+    "aliases": ["Vet.App.", "Vet App"],\
+    "description": "Veterans Appeals Reports \'96 reporter for the U.S. Court of Appeals for Veterans Claims decisions. Abbreviated \'93Vet. App.\'94 Covers decisions of this specialized Article I court (established 1988) which hears appeals from VA benefit determinations.",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Occasionally mis-cited as \\"Vet. App. Rptr\\" or confused with Veterans Law Reporter"],\
+    "placeholder_examples": ["30 Vet. App. 54 (2018)"]\
+  \},\
+  \{\
+    "abbreviation": "Ct. Int\'92l Trade",\
+    "aliases": ["C.I.T.", "Ct Int'l Trade"],\
+    "description": "United States Court of International Trade Reports \'96 official reporter for the Court of International Trade (abbreviated as \'93Ct. Int\'92l Trade\'94 or \'93C.I.T.\'94) [oai_citation:17\'87courtlistener.com](https://www.courtlistener.com/c/ct-intl-trade/13/?page=2#:~:text=,00297.%20Carnation). Publishes decisions involving international trade and customs issues, sometimes alongside parallel F. Supp citations [oai_citation:18\'87courtlistener.com](https://www.courtlistener.com/c/ct-intl-trade/13/?page=2#:~:text=,00297.%20Carnation).",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using only F. Supp. citation when an official CIT citation exists [oai_citation:19\'87cit.uscourts.gov](https://www.cit.uscourts.gov/sites/cit/files/Rule%2081.pdf#:~:text=Copies%20www,to%20the%20official%20CIT%20Reports)"],\
+    "placeholder_examples": ["19 Ct. Int\'92l Trade 1 (1995)", "13 C.I.T. 599 (1989)"]\
+  \},\
+  \{\
+    "abbreviation": "T.C.",\
+    "aliases": ["TC"],\
+    "description": "Tax Court Reports \'96 official reporter of the U.S. Tax Court (regular decisions). Abbreviated \'93T.C.\'94 Covers substantive tax decisions by the Tax Court judges. Published continuously since the Tax Court\'92s establishment (1942\'96present) [oai_citation:20\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=T).",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Mistaking \\"T.C.\\" for a state court reporter due to similar abbreviation"],\
+    "placeholder_examples": ["150 T.C. 1 (2018)", "50 T.C. 482 (1968)"]\
+  \},\
+  \{\
+    "abbreviation": "T.C. Memo",\
+    "aliases": ["T.C.M.", "T.C. Memo.", "TC Memo"],\
+    "description": "Tax Court Memorandum Decisions \'96 unpublished memorandum opinions of the U.S. Tax Court, published in a separate series (abbreviated \'93T.C. Memo\'94). Used for less precedential cases; citations often include year and number (sometimes cited as T.C.M. with publisher identifiers).",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting 'Memo' (e.g., citing as regular T.C. report)"],\
+    "placeholder_examples": ["T.C. Memo 2020-5", "T.C. Memo 1998-112"]\
+  \},\
+  \{\
+    "abbreviation": "B.T.A.",\
+    "aliases": ["BTA"],\
+    "description": "Board of Tax Appeals Reports \'96 decisions of the U.S. Board of Tax Appeals (predecessor to the Tax Court) from 1924\'961942. Abbreviated \'93B.T.A.\'94 These volumes contain federal tax dispute decisions before the Tax Court era.",\
+    "court_level": "Federal Specialized Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Rarely cited incorrectly given their age, but sometimes mis-labeled as Tax Court cases"],\
+    "placeholder_examples": ["1 B.T.A. 1 (1924)", "45 B.T.A. 104 (1941)"]\
+  \},\
+  \{\
+    "abbreviation": "A.",\
+    "aliases": [],\
+    "description": "Atlantic Reporter, First Series \'96 regional reporter for appellate decisions from multiple East Coast states (CT, DE, DC, ME, MD, NH, NJ, PA, RI, VT) [oai_citation:21\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=State%20Appellate%20Court%20decisions%20are,multiple%20states%20in%20each%20area). Abbreviated \'93A.\'94 Covered 1885\'961938. Succeeded by A.2d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Atlantic States)",\
+    "states": ["Connecticut", "Delaware", "District of Columbia", "Maine", "Maryland", "New Hampshire", "New Jersey", "Pennsylvania", "Rhode Island", "Vermont"],\
+    "common_citation_mistakes": ["Not recognizing the series (e.g., citing \\"A.2d\\" when the case is in A.)"],\
+    "placeholder_examples": ["100 A. 201 (Pa. 1917)", "29 A. 1117 (Md. 1894)"]\
+  \},\
+  \{\
+    "abbreviation": "A.2d",\
+    "aliases": ["A. 2d", "A2d"],\
+    "description": "Atlantic Reporter, Second Series \'96 regional reporter covering the Atlantic states from 1939 through 2010s [oai_citation:22\'87libguides.law.gonzaga.edu](https://libguides.law.gonzaga.edu/legalabbreviations/regionalreporters#:~:text=Abbreviations%20libguides,2d). Abbreviated \'93A.2d.\'94 It succeeded A. and was itself succeeded by A.3d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Atlantic States)",\
+    "states": ["Connecticut", "Delaware", "District of Columbia", "Maine", "Maryland", "New Hampshire", "New Jersey", "Pennsylvania", "Rhode Island", "Vermont"],\
+    "common_citation_mistakes": ["Spacing errors (\\"A.2d\\" vs \\"A. 2d\\")"],\
+    "placeholder_examples": ["150 A.2d 265 (NJ 1959)", "999 A.2d 45 (Md. 2010)"]\
+  \},\
+  \{\
+    "abbreviation": "A.3d",\
+    "aliases": ["A. 3d", "A3d"],\
+    "description": "Atlantic Reporter, Third Series \'96 current regional reporter for Atlantic states\'92 appellate cases (began circa 2010) [oai_citation:23\'87libguides.law.gonzaga.edu](https://libguides.law.gonzaga.edu/legalabbreviations/regionalreporters#:~:text=Abbreviations%20libguides,2d). Abbreviated \'93A.3d.\'94 Continues the Atlantic Reporter series with updated volume numbering.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Atlantic States)",\
+    "states": ["Connecticut", "Delaware", "District of Columbia", "Maine", "Maryland", "New Hampshire", "New Jersey", "Pennsylvania", "Rhode Island", "Vermont"],\
+    "common_citation_mistakes": ["Omitting the series number (writing \\"A.\\" instead of A.3d)"],\
+    "placeholder_examples": ["100 A.3d 1021 (Pa. 2014)", "250 A.3d 862 (Md. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "N.E.",\
+    "aliases": ["NE"],\
+    "description": "North Eastern Reporter, First Series \'96 regional reporter for appellate cases from IL, IN, MA, NY, OH (1885\'961936) [oai_citation:24\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20Atlantic%20Reporter%20,KY%2C%20MO%2C%20TN%20%26%20TX). Abbreviated \'93N.E.\'94 Superseded by N.E.2d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (North Eastern States)",\
+    "states": ["Illinois", "Indiana", "Massachusetts", "New York", "Ohio"],\
+    "common_citation_mistakes": ["Confusing N.E. with N.E.2d for cases in second series"],\
+    "placeholder_examples": ["155 N.E. 99 (Ill. 1927)", "50 N.E. 447 (NY 1898)"]\
+  \},\
+  \{\
+    "abbreviation": "N.E.2d",\
+    "aliases": ["N.E. 2d", "NE2d"],\
+    "description": "North Eastern Reporter, Second Series \'96 covers IL, IN, MA, NY, OH from 1936 to around 2014 [oai_citation:25\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,North%20Western%20Reporter%2C%202nd%20Series). Abbreviated \'93N.E.2d.\'94 Succeeded by N.E.3d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (North Eastern States)",\
+    "states": ["Illinois", "Indiana", "Massachusetts", "New York", "Ohio"],\
+    "common_citation_mistakes": ["Missing the period (\\"NE2d\\")"],\
+    "placeholder_examples": ["100 N.E.2d 546 (Ohio 1951)", "999 N.E.2d 1 (Ill. 2013)"]\
+  \},\
+  \{\
+    "abbreviation": "N.E.3d",\
+    "aliases": ["N.E. 3d", "NE3d"],\
+    "description": "North Eastern Reporter, Third Series \'96 current series for IL, IN, MA, NY, OH appellate cases (started mid-2010s). Abbreviated \'93N.E.3d.\'94 Continues where N.E.2d left off.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (North Eastern States)",\
+    "states": ["Illinois", "Indiana", "Massachusetts", "New York", "Ohio"],\
+    "common_citation_mistakes": ["Using \\"N.E.2d\\" for a case that is actually in N.E.3d"],\
+    "placeholder_examples": ["20 N.E.3d 215 (Ind. 2014)", "145 N.E.3d 770 (Mass. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "N.W.",\
+    "aliases": ["NW"],\
+    "description": "North Western Reporter, First Series \'96 regional reporter for IA, MI, MN, NE, ND, SD, WI (1879\'961944). Abbreviated \'93N.W.\'94 Continued by N.W.2d [oai_citation:26\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,North%20Western%20Reporter%2C%202nd%20Series).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (North Western States)",\
+    "states": ["Iowa", "Michigan", "Minnesota", "Nebraska", "North Dakota", "South Dakota", "Wisconsin"],\
+    "common_citation_mistakes": ["Confusing N.W. with N.W.2d in citations"],\
+    "placeholder_examples": ["200 N.W. 522 (Minn. 1924)", "300 N.W. 23 (Wis. 1941)"]\
+  \},\
+  \{\
+    "abbreviation": "N.W.2d",\
+    "aliases": ["N.W. 2d", "NW2d"],\
+    "description": "North Western Reporter, Second Series \'96 covers IA, MI, MN, NE, ND, SD, WI from 1944 through 2023 [oai_citation:27\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,North%20Western%20Reporter%2C%202nd%20Series) [oai_citation:28\'87scls.typepad.com](https://scls.typepad.com/online_update/2024/04/ou2208.html#:~:text=Vol.%2022%2C%20No.%2008%20,of%20law%20library%20collections). Abbreviated \'93N.W.2d.\'94 (A third series N.W.3d began in 2024 [oai_citation:29\'87scls.typepad.com](https://scls.typepad.com/online_update/2024/04/ou2208.html#:~:text=Vol.%2022%2C%20No.%2008%20,of%20law%20library%20collections).)",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (North Western States)",\
+    "states": ["Iowa", "Michigan", "Minnesota", "Nebraska", "North Dakota", "South Dakota", "Wisconsin"],\
+    "common_citation_mistakes": ["Missing the period (\\"NW 2d\\")"],\
+    "placeholder_examples": ["100 N.W.2d 489 (Iowa 1960)", "900 N.W.2d 1 (Neb. 2017)"]\
+  \},\
+  \{\
+    "abbreviation": "N.W.3d",\
+    "aliases": ["N.W. 3d", "NW3d"],\
+    "description": "North Western Reporter, Third Series \'96 newest series for the North Western region, beginning 2024 [oai_citation:30\'87scls.typepad.com](https://scls.typepad.com/online_update/2024/04/ou2208.html#:~:text=Vol.%2022%2C%20No.%2008%20,of%20law%20library%20collections). Abbreviated \'93N.W.3d.\'94 Continues the N.W.2d coverage for the same states.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (North Western States)",\
+    "states": ["Iowa", "Michigan", "Minnesota", "Nebraska", "North Dakota", "South Dakota", "Wisconsin"],\
+    "common_citation_mistakes": ["Using N.W.2d for a case already in N.W.3d"],\
+    "placeholder_examples": ["1 N.W.3d 1 (Wis. 2024)"]\
+  \},\
+  \{\
+    "abbreviation": "P.",\
+    "aliases": [],\
+    "description": "Pacific Reporter, First Series \'96 regional reporter for AK, AZ, CA, CO, HI, ID, KS, MT, NV, NM, OK, OR, UT, WA, WY (1883\'961931) [oai_citation:31\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PC%20%E2%80%94%20%20252) [oai_citation:32\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20Southern%20Reporter%20,OR%2C%20UT%2C%20WA%20%26%20WY). Abbreviated \'93P.\'94 Succeeded by P.2d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Pacific/West States)",\
+    "states": ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho", "Kansas", "Montana", "Nevada", "New Mexico", "Oklahoma", "Oregon", "Utah", "Washington", "Wyoming"],\
+    "common_citation_mistakes": ["Confusing P. with Pacific States\'92 official reporters"],\
+    "placeholder_examples": ["100 P. 250 (Cal. 1909)", "300 P. 1010 (Okla. 1931)"]\
+  \},\
+  \{\
+    "abbreviation": "P.2d",\
+    "aliases": ["P. 2d", "P2d"],\
+    "description": "Pacific Reporter, Second Series \'96 covers the same western states from 1931 to roughly 2000 [oai_citation:33\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PC%20%E2%80%94%20%20252). Abbreviated \'93P.2d.\'94 Succeeded by P.3d. Many western states eventually stopped official reports in favor of the Pacific Reporter [oai_citation:34\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Colorado%20Reports%201864,2d%20if).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Pacific/West States)",\
+    "states": ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho", "Kansas", "Montana", "Nevada", "New Mexico", "Oklahoma", "Oregon", "Utah", "Washington", "Wyoming"],\
+    "common_citation_mistakes": ["Writing as \\"Pac. 2d\\" instead of \\"P.2d\\" (Bluebook uses P.)"],\
+    "placeholder_examples": ["100 P.2d 1 (Wash. 1940)", "999 P.2d 1275 (Utah 2000)"]\
+  \},\
+  \{\
+    "abbreviation": "P.3d",\
+    "aliases": ["P. 3d", "P3d"],\
+    "description": "Pacific Reporter, Third Series \'96 current series for the Pacific region states, beginning around 2000. Abbreviated \'93P.3d.\'94 Continues coverage of appellate decisions in the western states [oai_citation:35\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PC%20%E2%80%94%20%20252).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Pacific/West States)",\
+    "states": ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho", "Kansas", "Montana", "Nevada", "New Mexico", "Oklahoma", "Oregon", "Utah", "Washington", "Wyoming"],\
+    "common_citation_mistakes": ["Using P.2d instead of P.3d for recent cases"],\
+    "placeholder_examples": ["1 P.3d 579 (Okla. 2000)", "500 P.3d 90 (Mont. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "S.E.",\
+    "aliases": ["SE"],\
+    "description": "South Eastern Reporter, First Series \'96 regional reporter for GA, NC, SC, VA, WV (1887\'961939) [oai_citation:36\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,%E2%80%94%20%20278) [oai_citation:37\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20North%20Western%20Reporter%20,KY%2C%20MO%2C%20TN%20%26%20TX). Abbreviated \'93S.E.\'94 Superseded by S.E.2d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (South Eastern States)",\
+    "states": ["Georgia", "North Carolina", "South Carolina", "Virginia", "West Virginia"],\
+    "common_citation_mistakes": ["Misidentifying older citations as S.E.2d"],\
+    "placeholder_examples": ["100 S.E. 222 (Va. 1919)", "180 S.E. 455 (NC 1935)"]\
+  \},\
+  \{\
+    "abbreviation": "S.E.2d",\
+    "aliases": ["S.E. 2d", "SE2d"],\
+    "description": "South Eastern Reporter, Second Series \'96 covers GA, NC, SC, VA, WV from 1939 through the present (well into the 2000s) [oai_citation:38\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,%E2%80%94%20%20278). Abbreviated \'93S.E.2d.\'94 (A third series has begun in some contexts as volumes grew in the 2020s.)",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (South Eastern States)",\
+    "states": ["Georgia", "North Carolina", "South Carolina", "Virginia", "West Virginia"],\
+    "common_citation_mistakes": ["Formatting errors (\\"SE 2d\\")"],\
+    "placeholder_examples": ["210 S.E.2d 659 (Ga. 1974)", "866 S.E.2d 160 (Va. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "S.E.3d",\
+    "aliases": ["S.E. 3d", "SE3d"],\
+    "description": "South Eastern Reporter, Third Series \'96 emerging series (if fully adopted) for Southeast state cases as S.E.2d volumes approach capacity [oai_citation:39\'87guides.library.vcu.edu](https://guides.library.vcu.edu/legal-citations/laws#:~:text=Regulations%20guides.library.vcu.edu%20%20S.E.2d%20,). Abbreviated \'93S.E.3d.\'94 Some recent cases, especially in electronic databases, show S.E.3d citations.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (South Eastern States)",\
+    "states": ["Georgia", "North Carolina", "South Carolina", "Virginia", "West Virginia"],\
+    "common_citation_mistakes": ["Citing as S.E.2d out of habit"],\
+    "placeholder_examples": ["545 S.E.3d 548 (Ga. 2022)"]\
+  \},\
+  \{\
+    "abbreviation": "So.",\
+    "aliases": ["Southern"],\
+    "description": "Southern Reporter, First Series \'96 regional reporter for AL, FL, LA, MS (1887\'961941). Abbreviated \'93So.\'94 Covered appellate decisions in those states before the second series started [oai_citation:40\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,South%20Western%20Reporter%2C%202nd%20Series).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Southern States)",\
+    "states": ["Alabama", "Florida", "Louisiana", "Mississippi"],\
+    "common_citation_mistakes": ["Assuming \\"So.\\" is an abbreviation for \\"South\\" instead of Southern Reporter"],\
+    "placeholder_examples": ["15 So. 72 (Miss. 1894)", "200 So. 577 (Ala. 1941)"]\
+  \},\
+  \{\
+    "abbreviation": "So. 2d",\
+    "aliases": ["So.2d", "Southern 2d"],\
+    "description": "Southern Reporter, Second Series \'96 covers AL, FL, LA, MS from 1941 to roughly 2009. Abbreviated \'93So. 2d.\'94 This series was the primary source for those states\'92 appellate opinions during that period [oai_citation:41\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,South%20Western%20Reporter%2C%202nd%20Series).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Southern States)",\
+    "states": ["Alabama", "Florida", "Louisiana", "Mississippi"],\
+    "common_citation_mistakes": ["Missing the space (\\"So.2d\\" without space)"],\
+    "placeholder_examples": ["50 So. 2d 534 (Fla. 1951)", "988 So. 2d 666 (La. 2008)"]\
+  \},\
+  \{\
+    "abbreviation": "So. 3d",\
+    "aliases": ["So.3d"],\
+    "description": "Southern Reporter, Third Series \'96 current series for AL, FL, LA, MS appellate cases (beginning ~2009). Abbreviated \'93So. 3d.\'94 Many recent decisions, especially in Florida and Louisiana, are cited in So. 3d.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (Southern States)",\
+    "states": ["Alabama", "Florida", "Louisiana", "Mississippi"],\
+    "common_citation_mistakes": ["Using So. 2d for cases that are in So. 3d"],\
+    "placeholder_examples": ["1 So. 3d 110 (Fla. 2009)", "300 So. 3d 770 (Miss. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "S.W.",\
+    "aliases": ["SW"],\
+    "description": "South Western Reporter, First Series \'96 regional reporter for AR, KY, MO, TN, TX (1886\'961939). Abbreviated \'93S.W.\'94 Superseded by S.W.2d [oai_citation:42\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,South%20Western%20Reporter%2C%203rd%20Series) [oai_citation:43\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20South%20Eastern%20Reporter%20,OK%2C%20OR%2C%20UT%2C%20WA).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (South Western States)",\
+    "states": ["Arkansas", "Kentucky", "Missouri", "Tennessee", "Texas"],\
+    "common_citation_mistakes": ["Confusing S.W. with S.W.2d for early 20th-century cases"],\
+    "placeholder_examples": ["100 S.W. 600 (Tex. 1907)", "200 S.W. 997 (Ky. 1918)"]\
+  \},\
+  \{\
+    "abbreviation": "S.W.2d",\
+    "aliases": ["S.W. 2d", "SW2d"],\
+    "description": "South Western Reporter, Second Series \'96 covers AR, KY, MO, TN, TX from 1928 through approximately 1999 [oai_citation:44\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,South%20Western%20Reporter%2C%203rd%20Series). Abbreviated \'93S.W.2d.\'94 Succeeded by S.W.3d in late 1990s.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (South Western States)",\
+    "states": ["Arkansas", "Kentucky", "Missouri", "Tennessee", "Texas"],\
+    "common_citation_mistakes": ["Missing the period (\\"SW 2d\\")"],\
+    "placeholder_examples": ["250 S.W.2d 33 (Mo. 1952)", "998 S.W.2d 605 (Tex. 1999)"]\
+  \},\
+  \{\
+    "abbreviation": "S.W.3d",\
+    "aliases": ["S.W. 3d", "SW3d"],\
+    "description": "South Western Reporter, Third Series \'96 current series for AR, KY, MO, TN, TX appellate cases (from ~1999 to present). Abbreviated \'93S.W.3d.\'94 Reflects continued publication of Southwest region decisions [oai_citation:45\'87linkedin.com](https://www.linkedin.com/posts/john-andrew-mcwilliams-b8b96a258_while-reviewing-summary-judgment-rules-over-activity-7262086747306549248-ZeIq#:~:text=John%20Andrew%20McWilliams%27%20Post%20,don%27t%20want%20your%20citation).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional (South Western States)",\
+    "states": ["Arkansas", "Kentucky", "Missouri", "Tennessee", "Texas"],\
+    "common_citation_mistakes": ["Using S.W.2d instead of S.W.3d for recent cases"],\
+    "placeholder_examples": ["100 S.W.3d 50 (Tex. 2003)", "600 S.W.3d 851 (Ark. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Ala.",\
+    "aliases": [],\
+    "description": "Alabama Reports \'96 official reporter for the Alabama Supreme Court (state\'92s highest court) from 1840 through 1976 [oai_citation:46\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Alabama%20Supreme%20Court%20%28Ala,1976%20Ala). Abbreviated \'93Ala.\'94 After 1976, Alabama ceased its official reports and relied on the Southern Reporter [oai_citation:47\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Supreme%20Court%20%28Ala,1834%20Stew.%20%26%20P).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Alabama",\
+    "states": ["Alabama"],\
+    "common_citation_mistakes": ["Using Southern Reporter citation without Alabama parallel for older cases (when Ala. citation exists)"],\
+    "placeholder_examples": ["287 Ala. 372 (1971)", "55 Ala. 388 (1876)"]\
+  \},\
+  \{\
+    "abbreviation": "Ala. App.",\
+    "aliases": ["Ala App"],\
+    "description": "Alabama Appellate Court Reports \'96 official reporter for Alabama\'92s intermediate appellate decisions (Courts of Appeals) from 1910 to 1976 [oai_citation:48\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=match%20at%20L9209%20Alabama%20Appellate,date%20So.%2C%20So.%202d) [oai_citation:49\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=cite%20only%20to%20So,date%20So.%2C%20So.%202d). Abbreviated \'93Ala. App.\'94 Covered both civil and criminal appellate cases before Alabama stopped publishing official reports.",\
+    "court_level": "State Intermediate Appellate Court",\
+    "jurisdiction": "Alabama",\
+    "states": ["Alabama"],\
+    "common_citation_mistakes": ["Confusing Ala. App. with Ala. (Supreme Court) or failing to include the court in parenthetical"],\
+    "placeholder_examples": ["45 Ala. App. 233 (Civ. App. 1988)", "12 Ala. App. 11 (Ct. App. 1914)"]\
+  \},\
+  \{\
+    "abbreviation": "Alaska",\
+    "aliases": [],\
+    "description": "Alaska Reports \'96 territorial and early statehood reporter for Alaska decisions (1884\'961959) [oai_citation:50\'87lam.alaska.gov](https://lam.alaska.gov/c.php?g=214583&p=1416362#:~:text=Alaska%20Reports%20,D). Abbreviated \'93Alaska.\'94 After statehood (1959), Alaska cases appear in the Pacific Reporter [oai_citation:51\'87courts.alaska.gov](https://courts.alaska.gov/library/aklegal.htm#:~:text=Law%20Library%20Legal%20Resources%20,Pacific%20Reporter%20or%20the), and an extracted Alaska Reporter (unofficial) continued with Pacific pagination [oai_citation:52\'87courts.alaska.gov](https://courts.alaska.gov/library/aklegal.htm#:~:text=Alaska%20appellate%20opinions%20are%20also,Pacific%20Reporter%20or%20the). No separate official reports after 1959.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Alaska",\
+    "states": ["Alaska"],\
+    "common_citation_mistakes": ["Citing Alaska cases only to Pacific Reporter when an Alaska official citation exists pre-1960"],\
+    "placeholder_examples": ["12 Alaska 10 (1947) [oai_citation:53\'87courtlistener.com](https://www.courtlistener.com/c/alaska/12/#:~:text=Vol,Dist)", "17 Alaska 652 (1959)"]\
+  \},\
+  \{\
+    "abbreviation": "Ariz.",\
+    "aliases": [],\
+    "description": "Arizona Reports \'96 official reporter for Arizona Supreme Court decisions (1866\'96present) [oai_citation:54\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arizona%20Reports%201866%E2%80%93date%20Ariz,Pacific). Abbreviated \'93Ariz.\'94 Arizona continues to number its official reports. (Arizona Court of Appeals cases (1965\'961976) appeared in Ariz. App. Reports, afterward appearing only in Pacific Reporter [oai_citation:55\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arizona%20Reports%201866%E2%80%93date%20Ariz,3d).)",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Arizona",\
+    "states": ["Arizona"],\
+    "common_citation_mistakes": ["Using only Pacific Reporter citation without the Ariz. cite for older cases"],\
+    "placeholder_examples": ["150 Ariz. 27 (1986)", "25 Ariz. 518 (1923)"]\
+  \},\
+  \{\
+    "abbreviation": "Ariz. App.",\
+    "aliases": ["Ariz App"],\
+    "description": "Arizona Court of Appeals Reports \'96 official reporter for Arizona Court of Appeals decisions from 1965 to 1976 [oai_citation:56\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arizona%20Reports%201976%E2%80%93date%20Ariz,3d). Abbreviated \'93Ariz. App.\'94 After 1976, Arizona intermediate appellate decisions have been cited in the Pacific Reporter (with no new Ariz. App. volumes).",\
+    "court_level": "State Intermediate Appellate Court",\
+    "jurisdiction": "Arizona",\
+    "states": ["Arizona"],\
+    "common_citation_mistakes": ["Expecting post-1976 Ariz. App. citations (none exist, use Pacific Reporter)"],\
+    "placeholder_examples": ["1 Ariz. App. 27 (1965)", "22 Ariz. App. 489 (1975)"]\
+  \},\
+  \{\
+    "abbreviation": "Ark.",\
+    "aliases": [],\
+    "description": "Arkansas Reports \'96 official reporter for Arkansas Supreme Court decisions (1837\'962009) [oai_citation:57\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arkansas%20Reports%201837%E2%80%932009%20Ark,3d%20Reporter). Abbreviated \'93Ark.\'94 Volumes 1\'96375 Ark. cover state supreme court cases. After 2009, Arkansas adopted a public-domain citation system and stopped publishing bound volumes [oai_citation:58\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arkansas%20Reports%201837%E2%80%932009%20Ark,3d%20Reporter), though \'93Ark.\'94 is still used in neutral citations.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Arkansas",\
+    "states": ["Arkansas"],\
+    "common_citation_mistakes": ["Using S.W.2d or S.W.3d without Ark. for older cases when Ark. cite exists"],\
+    "placeholder_examples": ["350 Ark. 211 (2002)", "100 Ark. 42 (1911)"]\
+  \},\
+  \{\
+    "abbreviation": "Ark. App.",\
+    "aliases": ["Ark App"],\
+    "description": "Arkansas Appellate Reports \'96 official reporter for Arkansas Court of Appeals decisions (1981\'962009) [oai_citation:59\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arkansas%20Reports%201979%E2%80%931981%20Ark,x%20%28%3Cyear%3E%29%201987%20Annotated). Abbreviated \'93Ark. App.\'94 Published volumes of intermediate appellate cases until Arkansas switched to neutral citations in 2009.",\
+    "court_level": "State Intermediate Appellate Court",\
+    "jurisdiction": "Arkansas",\
+    "states": ["Arkansas"],\
+    "common_citation_mistakes": ["Omitting the \\"App.\\" and citing as if Arkansas Supreme Court case"],\
+    "placeholder_examples": ["60 Ark. App. 198 (1998)", "1 Ark. App. 30 (1981)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal.",\
+    "aliases": [],\
+    "description": "California Reports \'96 official reporter of California Supreme Court decisions. Abbreviated \'93Cal.\'94 (first series 1850\'961934), then \'93Cal. 2d\'94 (1934\'961969), \'93Cal. 3d\'94 (1969\'961991), \'93Cal. 4th\'94 (1991\'962016), and currently \'93Cal. 5th.\'94 [oai_citation:60\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=California%20Reports%201850,1910%20Cal.%20Unrep) These contain the authoritative California Supreme Court opinions.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": ["Not indicating the series (e.g., citing \\"Cal.\\" when the case is in Cal. 2d)"],\
+    "placeholder_examples": ["17 Cal. 2d 107 (1941)", "5 Cal. 5th 277 (2018)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. 2d",\
+    "aliases": ["Cal.2d"],\
+    "description": "California Reports, Second Series \'96 see Cal. above. Example: 33 Cal. 2d 80 (1948). This indicates the second series of California Supreme Court reports [oai_citation:61\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=California%20Reports%201850,1910%20Cal.%20Unrep).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["33 Cal. 2d 80 (1948)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. 3d",\
+    "aliases": ["Cal.3d"],\
+    "description": "California Reports, Third Series \'96 see Cal. above. Example: 13 Cal. 3d 758 (1975). Represents California Supreme Court decisions roughly 1969\'961991.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["13 Cal. 3d 758 (1975)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. 4th",\
+    "aliases": ["Cal.4th"],\
+    "description": "California Reports, Fourth Series \'96 see Cal. above. Example: 21 Cal. 4th 543 (1999). Represents California Supreme Court decisions ~1991\'962016.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["21 Cal. 4th 543 (1999)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. 5th",\
+    "aliases": ["Cal.5th"],\
+    "description": "California Reports, Fifth Series \'96 current series of California Supreme Court official reports (2016\'96present). Example: 1 Cal. 5th 230 (2016). Continues the numbering of California\'92s official Supreme Court reporter.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["1 Cal. 5th 230 (2016)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. App.",\
+    "aliases": ["Cal App"],\
+    "description": "California Appellate Reports \'96 official reporter for the California Courts of Appeal. Abbreviated \'93Cal. App.\'94 for first series (1905\'961934), followed by Cal. App. 2d (1934\'961962), Cal. App. 3d (1962\'961979), Cal. App. 4th (1990\'962016), and Cal. App. 5th (2016\'96present) [oai_citation:62\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=,3d). Contains published intermediate appellate decisions of California.",\
+    "court_level": "State Intermediate Appellate Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": ["Omitting the series (e.g., citing as Cal. App. when it should be Cal. App. 4th)"],\
+    "placeholder_examples": ["50 Cal. App. 3d 337 (1975)", "10 Cal. App. 5th 594 (2017)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. App. Supp.",\
+    "aliases": ["Cal. App. Dep't Super. Ct.", "Cal App Supp"],\
+    "description": "California Appellate Department Reports (Supplements) \'96 reporter for decisions of the Appellate Departments of the California Superior Court (minor appeals from municipal courts). Abbreviated \'93Cal. App. Supp.\'94 (and 2d Supp., 3d Supp. for later series) [oai_citation:63\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=match%20at%20L9349%20Appellate%20Departments,%28after%201959%29%20if%20therein). These are specialized reports (e.g., 23 Cal. App. 2d Supp. 758).",\
+    "court_level": "Special Trial/Appellate Department",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": ["Citing these rare reports as regular Cal. App. series"],\
+    "placeholder_examples": ["23 Cal. App. 2d Supp. 758 (App. Dep\'92t Super. Ct. 1937)"]\
+  \},\
+  \{\
+    "abbreviation": "Colo.",\
+    "aliases": [],\
+    "description": "Colorado Reports \'96 official reporter for Colorado Supreme Court decisions from 1864 to 1980 [oai_citation:64\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Colorado%20Reports%201864,2d%20if). Abbreviated \'93Colo.\'94 Volumes ceased after 1980 when Colorado began using Pacific Reporter as official and later adopted public domain citations [oai_citation:65\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Colorado%20Supreme%20Court%20%28Colo,2d%2C%20if%20therein).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Colorado",\
+    "states": ["Colorado"],\
+    "common_citation_mistakes": ["Using only Pacific Reporter for pre-1980 cases without Colo. reference"],\
+    "placeholder_examples": ["200 Colo. 456 (1980)", "50 Colo. 218 (1911)"]\
+  \},\
+  \{\
+    "abbreviation": "Colo. App.",\
+    "aliases": ["Colo App"],\
+    "description": "Colorado Court of Appeals Reports \'96 official reporter for Colorado Court of Appeals decisions in several discontinuous periods (1891\'961905; 1912\'961915; 1970\'961980) [oai_citation:66\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Appeals%20%28Colo,1915%20P). Abbreviated \'93Colo. App.\'94 After 1980, Colorado Appellate cases are cited in Pacific Reporter or by neutral citation.",\
+    "court_level": "State Intermediate Appellate Court",\
+    "jurisdiction": "Colorado",\
+    "states": ["Colorado"],\
+    "common_citation_mistakes": ["Assuming a continuous run of Colo. App. volumes exists beyond 1980"],\
+    "placeholder_examples": ["34 Colo. App. 268 (1975)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn.",\
+    "aliases": [],\
+    "description": "Connecticut Reports \'96 official reporter for Connecticut Supreme Court (formerly Supreme Court of Errors) decisions, 1814\'96present [oai_citation:67\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Connecticut%20Supreme%20Court%20%28Conn,1798%20Root). Abbreviated \'93Conn.\'94 Connecticut still publishes official reports, though parallel Atlantic Reporter citations are common.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": ["Using only Atlantic Reporter for Connecticut cases when Conn. cite exists [oai_citation:68\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Supreme%20Court%20%28Conn,1789%20~by)"],\
+    "placeholder_examples": ["322 Conn. 1 (2016)", "100 Conn. 711 (1924)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn. App.",\
+    "aliases": ["Conn App"],\
+    "description": "Connecticut Appellate Reports \'96 official reporter for the Connecticut Appellate Court (intermediate court) from 1983 to present [oai_citation:69\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Appellate%20Court%20%28Conn,In%20documents%20submitted%20to%20Con). Abbreviated \'93Conn. App.\'94 Parallel citations to A.2d are also used in practice.",\
+    "court_level": "State Intermediate Appellate Court",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": ["Omitting the A.2d parallel in Connecticut filings (though not strictly an error, Bluebook allows either)"],\
+    "placeholder_examples": ["210 Conn. App. 579 (2022)", "1 Conn. App. 1 (1983)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn. Supp.",\
+    "aliases": ["Conn. Super.", "Conn. Superior Ct."],\
+    "description": "Connecticut Supplement \'96 reporter for selected Connecticut Superior Court (trial court) decisions, 1935\'96present [oai_citation:70\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Superior%20Court%20%28Conn,therein%3B%20otherwise%2C%20cite%20to%20Conn). Abbreviated \'93Conn. Supp.\'94 Provides published trial-level opinions, often alongside Atlantic Reporter parallel citations.",\
+    "court_level": "State Trial Court",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": ["Mislabeling as \'93Conn. Super.\'94 (Bluebook uses Conn. Supp.)"],\
+    "placeholder_examples": ["58 Conn. Supp. 152 (Super. Ct. 2015)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn. Cir. Ct.",\
+    "aliases": ["Conn. Cir."],\
+    "description": "Connecticut Circuit Court Reports \'96 official reporter for the now-abolished Connecticut Circuit Court (a lower court that existed 1960s\'961970s). Abbreviated \'93Conn. Cir. Ct.\'94 Covered 1961\'961974 [oai_citation:71\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Connecticut%20Supplement%201935,1974%20A.2d).",\
+    "court_level": "State Trial Court (former)",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": ["Rarely cited today; confusion with Conn. App. or Conn. Supp. is possible"],\
+    "placeholder_examples": ["3 Conn. Cir. Ct. 199 (1965)"]\
+  \},\
+  \{\
+    "abbreviation": "Del.",\
+    "aliases": [],\
+    "description": "Delaware Reports \'96 official reporter for Delaware Supreme Court decisions, volumes cited by number and \'93Del.\'94, covering 1920\'961966 [oai_citation:72\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Delaware%20Supreme%20Court%20%28Del.,%281%20Boyce). Earlier decisions were reported under names of reporters (Harrington, Houston, etc., later consolidated as Del. Reports). After 1966, Delaware uses Atlantic Reporter as official [oai_citation:73\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=documents%2C%20cite%20only%20to%20A,%28I%20Harr).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Delaware",\
+    "states": ["Delaware"],\
+    "common_citation_mistakes": ["Neglecting to include Del. citation for pre-1966 cases (relying only on Atlantic)"],\
+    "placeholder_examples": ["59 Del. 544 (1966) [oai_citation:74\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=documents%2C%20cite%20only%20to%20A,%28I%20Harr)", "4 Del. 194 (1908)"]\
+  \},\
+  \{\
+    "abbreviation": "Del. Ch.",\
+    "aliases": ["Del Ch"],\
+    "description": "Delaware Chancery Reports \'96 official reporter for the Delaware Court of Chancery decisions from 1814 through 1968 [oai_citation:75\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Delaware%20Cases%201792,date%20A.%2C%20A.2d). Abbreviated \'93Del. Ch.\'94 Chancery (equity) decisions after 1968 appear in the Atlantic Reporter.",\
+    "court_level": "State Chancery Court",\
+    "jurisdiction": "Delaware",\
+    "states": ["Delaware"],\
+    "common_citation_mistakes": ["Using only Atlantic cite for older Chancery cases without Del. Ch. reference"],\
+    "placeholder_examples": ["30 Del. Ch. 249 (1952)"]\
+  \},\
+  \{\
+    "abbreviation": "Fla.",\
+    "aliases": [],\
+    "description": "Florida Reports \'96 official reporter for Florida Supreme Court decisions from 1846 until 1948. Abbreviated \'93Fla.\'94 Florida discontinued its own reports after volume 160 Fla. (1948) and thereafter relied on the Southern Reporter [oai_citation:76\'87supportcenter.lexisnexis.com](https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1102121#:~:text=Florida%20Follows%20Standard%20except%20as,Fourth%20Edition%C2%A0%28Rev.%202012). Modern Florida citations use So. or So. 2d/3d.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Florida",\
+    "states": ["Florida"],\
+    "common_citation_mistakes": ["Expecting a Fla. official citation for post-1948 cases (none exists, use So. 2d/3d)"],\
+    "placeholder_examples": ["160 Fla. 833 (1948)", "65 Fla. 27 (1913)"]\
+  \},\
+  \{\
+    "abbreviation": "Ga.",\
+    "aliases": [],\
+    "description": "Georgia Reports \'96 official reporter for the Supreme Court of Georgia, 1846\'96present. Abbreviated \'93Ga.\'94 Georgia continues to publish its own reports in addition to inclusion in the South Eastern Reporter.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Georgia",\
+    "states": ["Georgia"],\
+    "common_citation_mistakes": ["Using only S.E.2d for Georgia Supreme Court cases when Ga. citation exists"],\
+    "placeholder_examples": ["310 Ga. 411 (2020)", "150 Ga. sequence"].```json\
+[\
+  \{\
+    "abbreviation": "U.S.",\
+    "aliases": ["US", "U. S."],\
+    "description": "United States Reports \'96 official reporter for U.S. Supreme Court decisions [oai_citation:77\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=U). Continuous volume numbering (no series).",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["\\"USSC\\" (informal shorthand for Supreme Court)", "omitting periods (\\"US\\" for \\"U.S.\\")"],\
+    "placeholder_examples": ["410 U.S. 113 (1973)", "576 U.S. 644 (2015)"]\
+  \},\
+  \{\
+    "abbreviation": "S. Ct.",\
+    "aliases": ["S Ct", "Sup. Ct."],\
+    "description": "Supreme Court Reporter \'96 unofficial West reporter for U.S. Supreme Court cases [oai_citation:78\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,S%2FJ%20%E2%80%94%20%20242). Parallel to U.S. Reports.",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing period (\\"S Ct\\" instead of \\"S. Ct.\\")", "using \\"SCOTUS\\" in formal citation"],\
+    "placeholder_examples": ["91 S. Ct. 2100 (1971)", "135 S. Ct. 2726 (2015)"]\
+  \},\
+  \{\
+    "abbreviation": "L. Ed.",\
+    "aliases": ["L Ed"],\
+    "description": "Lawyers\'92 Edition (U.S. Supreme Court) \'96 unofficial reporter (1882\'96present, second series since 1956).",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting series number (\\"L. Ed.\\" vs. \\"L. Ed. 2d\\")"],\
+    "placeholder_examples": ["27 L. Ed. 1042 (1883)", "92 L. Ed. 2d 798 (1987)"]\
+  \},\
+  \{\
+    "abbreviation": "L. Ed. 2d",\
+    "aliases": ["L.Ed.2d", "L Ed 2d"],\
+    "description": "Lawyers\'92 Edition, Second Series \'96 continuation of L. Ed. since 1956 [oai_citation:79\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,S%2FJ%20%E2%80%94%20%20242).",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"L. Ed.\\" instead of \\"L. Ed. 2d\\" for recent cases"],\
+    "placeholder_examples": ["139 L. Ed. 2d 842 (1997)"]\
+  \},\
+  \{\
+    "abbreviation": "F.",\
+    "aliases": [],\
+    "description": "Federal Reporter (1st series) \'96 U.S. Courts of Appeals decisions 1880\'961924 [oai_citation:80\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=Larger%20reporters%20are%20separated%20into,Bankruptcy%20Reporter%2C%20and%20Federal%20Appendix).",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Mislabeling as \\"F.1d\\" (no \\"1d\\" exists)"],\
+    "placeholder_examples": ["160 F. 593 (2d Cir. 1908)"]\
+  \},\
+  \{\
+    "abbreviation": "F.2d",\
+    "aliases": ["F2d"],\
+    "description": "Federal Reporter, Second Series \'96 U.S. Courts of Appeals 1925\'961993 [oai_citation:81\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PA%20%E2%80%94%20Professional%20association).",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Writing \\"F. 2d\\" with extra space"],\
+    "placeholder_examples": ["410 F.2d 113 (5th Cir. 1969)"]\
+  \},\
+  \{\
+    "abbreviation": "F.3d",\
+    "aliases": ["F3d", "F3rd"],\
+    "description": "Federal Reporter, Third Series \'96 U.S. Courts of Appeals 1993\'962021 [oai_citation:82\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PA%20%E2%80%94%20Professional%20association).",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"F3rd\\" instead of \\"F.3d\\""],\
+    "placeholder_examples": ["999 F.3d 987 (10th Cir. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "F.4th",\
+    "aliases": ["F4th"],\
+    "description": "Federal Reporter, Fourth Series \'96 U.S. Courts of Appeals 2021\'96present.",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting period (\\"F4th\\")"],\
+    "placeholder_examples": ["20 F.4th 769 (4th Cir. 2022)"]\
+  \},\
+  \{\
+    "abbreviation": "Fed. App\'92x",\
+    "aliases": ["Fed. Appx", "F. App'x"],\
+    "description": "Federal Appendix \'96 unpublished federal appellate decisions (2001\'962021) [oai_citation:83\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,).",\
+    "court_level": "Federal Courts of Appeals",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing apostrophe (\\"Fed. Appx\\" for \\"Fed. App\'92x\\")"],\
+    "placeholder_examples": ["123 Fed. App\'92x 456 (9th Cir. 2005)"]\
+  \},\
+  \{\
+    "abbreviation": "U.S. App. D.C.",\
+    "aliases": ["App. D.C."],\
+    "description": "Reports of the D.C. Circuit (abbr. U.S. App. D.C.) \'96 official reporter for D.C. Circuit cases (parallel cite with F.2d) [oai_citation:84\'87courtlistener.com](https://www.courtlistener.com/c/ct-intl-trade/13/?page=2#:~:text=,00297.%20Carnation).",\
+    "court_level": "Federal Court of Appeals",\
+    "jurisdiction": "Federal (D.C. Circuit)",\
+    "states": [],\
+    "common_citation_mistakes": ["Confusing with local D.C. Court of Appeals"],\
+    "placeholder_examples": ["123 U.S. App. D.C. 56, 351 F.2d 489 (D.C. Cir. 1965)"]\
+  \},\
+  \{\
+    "abbreviation": "F. Supp.",\
+    "aliases": ["F Supp"],\
+    "description": "Federal Supplement (1st series) \'96 U.S. District Court cases 1932\'961998 [oai_citation:85\'87libraryguides.law.uic.edu](https://libraryguides.law.uic.edu/c.php?g=1386543&p=10260668#:~:text=Bluebook%20Guide%3A%20Federal%20Cases%20,4%29%3B%20Year%20the%20case).",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting period in \\"F. Supp.\\""],\
+    "placeholder_examples": ["30 F. Supp. 2 (D. Mass. 1939)"]\
+  \},\
+  \{\
+    "abbreviation": "F. Supp. 2d",\
+    "aliases": ["F Supp 2d"],\
+    "description": "Federal Supplement, Second Series \'96 U.S. District Court cases 1998\'962014.",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["100 F. Supp. 2d 10 (E.D. Pa. 2000)"]\
+  \},\
+  \{\
+    "abbreviation": "F. Supp. 3d",\
+    "aliases": ["F Supp 3d"],\
+    "description": "Federal Supplement, Third Series \'96 U.S. District Courts 2014\'96present.",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["250 F. Supp. 3d 775 (N.D. Cal. 2017)"]\
+  \},\
+  \{\
+    "abbreviation": "F.R.D.",\
+    "aliases": [],\
+    "description": "Federal Rules Decisions \'96 district court rulings on procedural issues (abbrev. F.R.D.).",\
+    "court_level": "Federal District Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["85 F.R.D. 127 (S.D.N.Y. 1980)"]\
+  \},\
+  \{\
+    "abbreviation": "B.R.",\
+    "aliases": ["Bankr."],\
+    "description": "Bankruptcy Reporter \'96 U.S. Bankruptcy Court decisions [oai_citation:86\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,).",\
+    "court_level": "Federal Bankruptcy Courts",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["50 B.R. 5 (Bankr. N.D. Ill. 1985)"]\
+  \},\
+  \{\
+    "abbreviation": "Fed. Cl.",\
+    "aliases": [],\
+    "description": "Federal Claims Reporter \'96 Court of Federal Claims decisions (1982\'96present) [oai_citation:87\'87law.tamu.libguides.com](https://law.tamu.libguides.com/c.php?g=513860&p=3510990#:~:text=Abbreviations%20law,).",\
+    "court_level": "Federal Claims Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["150 Fed. Cl. 662 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Ct. Cl.",\
+    "aliases": [],\
+    "description": "Court of Claims Reports \'96 U.S. Court of Claims official reporter (1855\'961982).",\
+    "court_level": "Federal Claims Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["224 Ct. Cl. 744 (1980)"]\
+  \},\
+  \{\
+    "abbreviation": "C.C.P.A.",\
+    "aliases": ["Cust. & Pat. App."],\
+    "description": "Court of Customs & Patent Appeals Reports (pre-1982). Abbrev. C.C.P.A.",\
+    "court_level": "Special Federal Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["496 F.2d 876 (C.C.P.A. 1974)"]\
+  \},\
+  \{\
+    "abbreviation": "M.J.",\
+    "aliases": [],\
+    "description": "Military Justice Reporter \'96 Court of Military Appeals/CAAF cases (1975\'96present) [oai_citation:88\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Military%20Appeals%20%28C,date%20M.J).",\
+    "court_level": "Military Appeals Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Omitting periods (\\"MJ\\")"],\
+    "placeholder_examples": ["80 M.J. 129 (C.A.A.F. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "C.M.R.",\
+    "aliases": [],\
+    "description": "Court-Martial Reports \'96 military appeals (1951\'961975) [oai_citation:89\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Military%20Appeals%20%28C,date%20M.J).",\
+    "court_level": "Military Appeals Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["5 C.M.R. 50 (C.M.A. 1952)"]\
+  \},\
+  \{\
+    "abbreviation": "C.M.A.",\
+    "aliases": [],\
+    "description": "Court of Military Appeals Reports (official, 1951\'961980s). Abbrev. C.M.A.",\
+    "court_level": "Military Appeals Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["24 C.M.A. 108 (1975)"]\
+  \},\
+  \{\
+    "abbreviation": "Vet. App.",\
+    "aliases": [],\
+    "description": "Veterans Appeals Reporter \'96 U.S. Court of Appeals for Veterans Claims cases (abbrev. Vet. App.).",\
+    "court_level": "Special Federal Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["30 Vet. App. 54 (2018)"]\
+  \},\
+  \{\
+    "abbreviation": "Ct. Int\'92l Trade",\
+    "aliases": ["C.I.T."],\
+    "description": "Court of International Trade Reports (CIT) \'96 official reporter for trade court [oai_citation:90\'87courtlistener.com](https://www.courtlistener.com/c/ct-intl-trade/13/?page=2#:~:text=,00297.%20Carnation).",\
+    "court_level": "Special Federal Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["19 C.I.T. 1 (1995)"]\
+  \},\
+  \{\
+    "abbreviation": "T.C.",\
+    "aliases": [],\
+    "description": "Tax Court Reports \'96 U.S. Tax Court regular opinions [oai_citation:91\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=T).",\
+    "court_level": "Tax Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["150 T.C. 1 (2018)"]\
+  \},\
+  \{\
+    "abbreviation": "T.C. Memo",\
+    "aliases": ["T.C.M."],\
+    "description": "Tax Court Memorandum Decisions \'96 unofficial numbering of Tax Court memo opinions.",\
+    "court_level": "Tax Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["T.C. Memo 2020-5"]\
+  \},\
+  \{\
+    "abbreviation": "B.T.A.",\
+    "aliases": [],\
+    "description": "Board of Tax Appeals Reports \'96 predecessor to Tax Court (1924\'9642).",\
+    "court_level": "Tax Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["45 B.T.A. 104 (1941)"]\
+  \},\
+  \{\
+    "abbreviation": "A.",\
+    "aliases": [],\
+    "description": "Atlantic Reporter (1st) \'96 CT, DE, DC, ME, MD, NH, NJ, PA, RI, VT (1885\'961938) [oai_citation:92\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=State%20Appellate%20Court%20decisions%20are,multiple%20states%20in%20each%20area).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["CT","DE","DC","ME","MD","NH","NJ","PA","RI","VT"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["100 A. 201 (Pa. 1917)"]\
+  \},\
+  \{\
+    "abbreviation": "A.2d",\
+    "aliases": [],\
+    "description": "Atlantic Reporter, Second Series \'96 same states, 1939\'962010s [oai_citation:93\'87libguides.law.gonzaga.edu](https://libguides.law.gonzaga.edu/legalabbreviations/regionalreporters#:~:text=Abbreviations%20libguides,2d).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["CT","DE","DC","ME","MD","NH","NJ","PA","RI","VT"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["999 A.2d 45 (Md. 2010)"]\
+  \},\
+  \{\
+    "abbreviation": "A.3d",\
+    "aliases": [],\
+    "description": "Atlantic Reporter, Third Series \'96 current Atlantic states reporter [oai_citation:94\'87libguides.law.gonzaga.edu](https://libguides.law.gonzaga.edu/legalabbreviations/regionalreporters#:~:text=Abbreviations%20libguides,2d).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["CT","DE","DC","ME","MD","NH","NJ","PA","RI","VT"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["250 A.3d 862 (Md. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "N.E.",\
+    "aliases": [],\
+    "description": "North Eastern Reporter (1st) \'96 IL, IN, MA, NY, OH (1885\'961936) [oai_citation:95\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20Atlantic%20Reporter%20,KY%2C%20MO%2C%20TN%20%26%20TX).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["IL","IN","MA","NY","OH"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["155 N.E. 99 (Ill. 1927)"]\
+  \},\
+  \{\
+    "abbreviation": "N.E.2d",\
+    "aliases": [],\
+    "description": "North Eastern Reporter, Second Series \'96 IL, IN, MA, NY, OH (1936\'962014) [oai_citation:96\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,North%20Western%20Reporter%2C%202nd%20Series).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["IL","IN","MA","NY","OH"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["999 N.E.2d 1 (Ill. 2013)"]\
+  \},\
+  \{\
+    "abbreviation": "N.E.3d",\
+    "aliases": [],\
+    "description": "North Eastern Reporter, Third Series \'96 current series for IL, IN, MA, NY, OH.",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["IL","IN","MA","NY","OH"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["145 N.E.3d 770 (Mass. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "N.W.",\
+    "aliases": [],\
+    "description": "North Western Reporter (1st) \'96 IA, MI, MN, NE, ND, SD, WI (1879\'961944).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["IA","MI","MN","NE","ND","SD","WI"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["200 N.W. 23 (Wis. 1924)"]\
+  \},\
+  \{\
+    "abbreviation": "N.W.2d",\
+    "aliases": [],\
+    "description": "North Western Reporter, Second Series \'96 same states, 1944\'962023 [oai_citation:97\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,North%20Western%20Reporter%2C%202nd%20Series) [oai_citation:98\'87scls.typepad.com](https://scls.typepad.com/online_update/2024/04/ou2208.html#:~:text=Vol.%2022%2C%20No.%2008%20,of%20law%20library%20collections).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["IA","MI","MN","NE","ND","SD","WI"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["900 N.W.2d 1 (Neb. 2017)"]\
+  \},\
+  \{\
+    "abbreviation": "N.W.3d",\
+    "aliases": [],\
+    "description": "North Western Reporter, Third Series \'96 launched 2024 for NW states [oai_citation:99\'87scls.typepad.com](https://scls.typepad.com/online_update/2024/04/ou2208.html#:~:text=Vol.%2022%2C%20No.%2008%20,of%20law%20library%20collections).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["IA","MI","MN","NE","ND","SD","WI"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["1 N.W.3d 1 (Wis. 2024)"]\
+  \},\
+  \{\
+    "abbreviation": "P.",\
+    "aliases": [],\
+    "description": "Pacific Reporter (1st) \'96 AK, AZ, CA, CO, HI, ID, KS, MT, NV, NM, OK, OR, UT, WA, WY (1883\'961931) [oai_citation:100\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20Southern%20Reporter%20,OR%2C%20UT%2C%20WA%20%26%20WY).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AK","AZ","CA","CO","HI","ID","KS","MT","NV","NM","OK","OR","UT","WA","WY"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["100 P. 250 (Cal. 1909)"]\
+  \},\
+  \{\
+    "abbreviation": "P.2d",\
+    "aliases": [],\
+    "description": "Pacific Reporter, Second Series \'96 same states, 1931\'962000 [oai_citation:101\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,PC%20%E2%80%94%20%20252).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AK","AZ","CA","CO","HI","ID","KS","MT","NV","NM","OK","OR","UT","WA","WY"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["999 P.2d 1275 (Utah 2000)"]\
+  \},\
+  \{\
+    "abbreviation": "P.3d",\
+    "aliases": [],\
+    "description": "Pacific Reporter, Third Series \'96 current series for Pacific states (2000\'96present).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AK","AZ","CA","CO","HI","ID","KS","MT","NV","NM","OK","OR","UT","WA","WY"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["500 P.3d 90 (Mont. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "S.E.",\
+    "aliases": [],\
+    "description": "South Eastern Reporter (1st) \'96 GA, NC, SC, VA, WV (1887\'961939) [oai_citation:102\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20North%20Western%20Reporter%20,KY%2C%20MO%2C%20TN%20%26%20TX).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["GA","NC","SC","VA","WV"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["100 S.E. 222 (Va. 1919)"]\
+  \},\
+  \{\
+    "abbreviation": "S.E.2d",\
+    "aliases": [],\
+    "description": "South Eastern Reporter, Second Series \'96 GA, NC, SC, VA, WV (1939\'96present) [oai_citation:103\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,%E2%80%94%20%20278).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["GA","NC","SC","VA","WV"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["866 S.E.2d 160 (Va. 2021)"]\
+  \},\
+  \{\
+    "abbreviation": "S.E.3d",\
+    "aliases": [],\
+    "description": "South Eastern Reporter, Third Series \'96 emerging third series for SE states (some recent cases).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["GA","NC","SC","VA","WV"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["545 S.E.3d 548 (Ga. 2022)"]\
+  \},\
+  \{\
+    "abbreviation": "So.",\
+    "aliases": [],\
+    "description": "Southern Reporter (1st) \'96 AL, FL, LA, MS (1887\'961941) [oai_citation:104\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,South%20Western%20Reporter%2C%202nd%20Series).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AL","FL","LA","MS"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["200 So. 577 (Ala. 1941)"]\
+  \},\
+  \{\
+    "abbreviation": "So. 2d",\
+    "aliases": ["So.2d"],\
+    "description": "Southern Reporter, Second Series \'96 AL, FL, LA, MS (1941\'962009).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AL","FL","LA","MS"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["988 So. 2d 666 (La. 2008)"]\
+  \},\
+  \{\
+    "abbreviation": "So. 3d",\
+    "aliases": ["So.3d"],\
+    "description": "Southern Reporter, Third Series \'96 AL, FL, LA, MS (2009\'96present).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AL","FL","LA","MS"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["300 So. 3d 770 (Miss. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "S.W.",\
+    "aliases": [],\
+    "description": "South Western Reporter (1st) \'96 AR, KY, MO, TN, TX (1886\'961939) [oai_citation:105\'87law.cornell.edu](https://www.law.cornell.edu/wex/national_reporter_system#:~:text=%2A%20South%20Eastern%20Reporter%20,OK%2C%20OR%2C%20UT%2C%20WA).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AR","KY","MO","TN","TX"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["100 S.W. 600 (Tex. 1907)"]\
+  \},\
+  \{\
+    "abbreviation": "S.W.2d",\
+    "aliases": [],\
+    "description": "South Western Reporter, Second Series \'96 AR, KY, MO, TN, TX (1928\'961999) [oai_citation:106\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,South%20Western%20Reporter%2C%203rd%20Series).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AR","KY","MO","TN","TX"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["998 S.W.2d 605 (Tex. 1999)"]\
+  \},\
+  \{\
+    "abbreviation": "S.W.3d",\
+    "aliases": [],\
+    "description": "South Western Reporter, Third Series \'96 AR, KY, MO, TN, TX (1999\'96present) [oai_citation:107\'87linkedin.com](https://www.linkedin.com/posts/john-andrew-mcwilliams-b8b96a258_while-reviewing-summary-judgment-rules-over-activity-7262086747306549248-ZeIq#:~:text=John%20Andrew%20McWilliams%27%20Post%20,don%27t%20want%20your%20citation).",\
+    "court_level": "State Appellate Courts",\
+    "jurisdiction": "Regional",\
+    "states": ["AR","KY","MO","TN","TX"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["600 S.W.3d 851 (Ark. 2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Ala.",\
+    "aliases": [],\
+    "description": "Alabama Reports \'96 official Alabama Supreme Court reporter (1840\'961976) [oai_citation:108\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Alabama%20Supreme%20Court%20%28Ala,1976%20Ala).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Alabama",\
+    "states": ["Alabama"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["287 Ala. 372 (1971)"]\
+  \},\
+  \{\
+    "abbreviation": "Ala. App.",\
+    "aliases": [],\
+    "description": "Alabama Appellate Reports \'96 official reporter for Alabama appellate courts (1910\'961976) [oai_citation:109\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=cite%20only%20to%20So,date%20So.%2C%20So.%202d).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Alabama",\
+    "states": ["Alabama"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["45 Ala. App. 233 (1969)"]\
+  \},\
+  \{\
+    "abbreviation": "Alaska",\
+    "aliases": [],\
+    "description": "Alaska Reports \'96 territorial and early statehood reporter (1884\'961959) [oai_citation:110\'87lam.alaska.gov](https://lam.alaska.gov/c.php?g=214583&p=1416362#:~:text=Alaska%20Reports%20,D).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Alaska",\
+    "states": ["Alaska"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["12 Alaska 10 (1947)"]\
+  \},\
+  \{\
+    "abbreviation": "Ariz.",\
+    "aliases": [],\
+    "description": "Arizona Reports \'96 official Arizona Supreme Court reporter (1866\'96present) [oai_citation:111\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arizona%20Reports%201866%E2%80%93date%20Ariz,Pacific).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Arizona",\
+    "states": ["Arizona"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["250 Ariz. 580 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Ariz. App.",\
+    "aliases": [],\
+    "description": "Arizona Appeals Reports \'96 official reporter for Arizona Court of Appeals (1965\'961976) [oai_citation:112\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arizona%20Reports%201976%E2%80%93date%20Ariz,3d).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Arizona",\
+    "states": ["Arizona"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["1 Ariz. App. 1 (1965)"]\
+  \},\
+  \{\
+    "abbreviation": "Ark.",\
+    "aliases": [],\
+    "description": "Arkansas Reports \'96 official Arkansas Supreme Court reporter (1837\'962009) [oai_citation:113\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arkansas%20Reports%201837%E2%80%932009%20Ark,3d%20Reporter).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Arkansas",\
+    "states": ["Arkansas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["375 Ark. 1 (2008)"]\
+  \},\
+  \{\
+    "abbreviation": "Ark. App.",\
+    "aliases": [],\
+    "description": "Arkansas Appellate Reports \'96 Arkansas Court of Appeals (1981\'962009) [oai_citation:114\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Arkansas%20Reports%201979%E2%80%931981%20Ark,x%20%28%3Cyear%3E%29%201987%20Annotated).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Arkansas",\
+    "states": ["Arkansas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["60 Ark. App. 198 (1998)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal.",\
+    "aliases": [],\
+    "description": "California Reports \'96 California Supreme Court official reporter (Cal., Cal. 2d, Cal. 3d, Cal. 4th, Cal. 5th) [oai_citation:115\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=California%20Reports%201850,1910%20Cal.%20Unrep).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["5 Cal. 5th 277 (2018)"]\
+  \},\
+  \{\
+    "abbreviation": "Cal. App. Ct.",\
+    "aliases": ["Cal. App.", "Cal. App. 2d", "Cal. App. 3d", "Cal. App. 4th", "Cal. App. 5th"],\
+    "description": "California Appellate Reports \'96 California Court of Appeal official reporter (1st\'965th series) [oai_citation:116\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=,3d).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "California",\
+    "states": ["California"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["10 Cal. App. 5th 594 (2017)"]\
+  \},\
+  \{\
+    "abbreviation": "Colo.",\
+    "aliases": [],\
+    "description": "Colorado Reports \'96 Colorado Supreme Court official reporter (1864\'961980) [oai_citation:117\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Colorado%20Reports%201864,2d%20if).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Colorado",\
+    "states": ["Colorado"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["200 Colo. 456 (1980)"]\
+  \},\
+  \{\
+    "abbreviation": "Colo. App.",\
+    "aliases": [],\
+    "description": "Colorado Appellate Reports \'96 Colorado Court of Appeals (sporadic: 1890s and 1970\'9680) [oai_citation:118\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Appeals%20%28Colo,1915%20P).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Colorado",\
+    "states": ["Colorado"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["34 Colo. App. 268 (1975)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn.",\
+    "aliases": [],\
+    "description": "Connecticut Reports \'96 Connecticut Supreme Court official reporter (1814\'96present) [oai_citation:119\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Connecticut%20Supreme%20Court%20%28Conn,1798%20Root).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["322 Conn. 1 (2016)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn. App.",\
+    "aliases": [],\
+    "description": "Connecticut Appellate Reports \'96 Connecticut Appellate Court (1983\'96present) [oai_citation:120\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Appellate%20Court%20%28Conn,In%20documents%20submitted%20to%20Con).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["210 Conn. App. 579 (2022)"]\
+  \},\
+  \{\
+    "abbreviation": "Conn. Supp.",\
+    "aliases": [],\
+    "description": "Connecticut Supplement \'96 selected Superior Court decisions (1935\'96present) [oai_citation:121\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Superior%20Court%20%28Conn,therein%3B%20otherwise%2C%20cite%20to%20Conn).",\
+    "court_level": "State Trial Court",\
+    "jurisdiction": "Connecticut",\
+    "states": ["Connecticut"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["58 Conn. Supp. 152 (2015)"]\
+  \},\
+  \{\
+    "abbreviation": "Del.",\
+    "aliases": [],\
+    "description": "Delaware Reports \'96 Delaware Supreme Court official reporter (vols. 31\'9659 Del., 1920\'961966) [oai_citation:122\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Delaware%20Reports%2031%20Del,date%20A.%2CA.2d).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Delaware",\
+    "states": ["Delaware"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["59 Del. 544 (1966)"]\
+  \},\
+  \{\
+    "abbreviation": "Del. Ch.",\
+    "aliases": [],\
+    "description": "Delaware Chancery Reports \'96 Court of Chancery official reporter (1814\'961968) [oai_citation:123\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Delaware%20Cases%201792,date%20A.%2C%20A.2d).",\
+    "court_level": "State Chancery Court",\
+    "jurisdiction": "Delaware",\
+    "states": ["Delaware"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["30 Del. Ch. 249 (1952)"]\
+  \},\
+  \{\
+    "abbreviation": "Fla.",\
+    "aliases": [],\
+    "description": "Florida Reports \'96 Florida Supreme Court official reporter (1846\'961948).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Florida",\
+    "states": ["Florida"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["160 Fla. 833 (1948)"]\
+  \},\
+  \{\
+    "abbreviation": "Ga.",\
+    "aliases": [],\
+    "description": "Georgia Reports \'96 Georgia Supreme Court official reporter (1846\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Georgia",\
+    "states": ["Georgia"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["310 Ga. 411 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Ga. App.",\
+    "aliases": [],\
+    "description": "Georgia Appeals Reports \'96 Georgia Court of Appeals official reporter (1907\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Georgia",\
+    "states": ["Georgia"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["356 Ga. App. 160 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Haw.",\
+    "aliases": [],\
+    "description": "Hawaii Reports \'96 Hawaii Supreme Court official reporter (1847\'961994, ended with 75 Haw.) [oai_citation:124\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Hawaii%20Reports%201847%E2%80%931994%20Haw,3d).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Hawaii",\
+    "states": ["Hawaii"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["75 Haw. 224 (1993)"]\
+  \},\
+  \{\
+    "abbreviation": "Idaho",\
+    "aliases": [],\
+    "description": "Idaho Reports \'96 Idaho Supreme Court official reporter (1866\'96present) [oai_citation:125\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Idaho%20Reports%201866%E2%80%93date%20Idaho%20Court,3d%20Idaho%20Reports%201982%E2%80%93date%20Idaho).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Idaho",\
+    "states": ["Idaho"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["166 Idaho 280 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Ill.",\
+    "aliases": [],\
+    "description": "Illinois Reports \'96 Illinois Supreme Court official reporter (1819\'962011, ending with Ill. 2d) [oai_citation:126\'87illinoisappellatelawyerblog.com](https://www.illinoisappellatelawyerblog.com/illinois_adopts_new_publicdoma/#:~:text=Illinois%20Adopts%20New%20Public,has%20amended%20its%20Rule%206).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Illinois",\
+    "states": ["Illinois"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["238 Ill. 2d 233 (2010)"]\
+  \},\
+  \{\
+    "abbreviation": "Ill. 2d",\
+    "aliases": [],\
+    "description": "Illinois Reports, Second Series \'96 continuation of Ill. (1950s\'962011).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Illinois",\
+    "states": ["Illinois"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["50 Ill. 2d 20 (1971)"]\
+  \},\
+  \{\
+    "abbreviation": "Ill. App.",\
+    "aliases": [],\
+    "description": "Illinois Appellate Court Reports \'96 Ill. App., Ill. App. 2d, Ill. App. 3d (1877\'962011) [oai_citation:127\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Appellate%20Court%20%28Ill,an%20Illinois%20Appellate%20Court%20Report).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Illinois",\
+    "states": ["Illinois"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["327 Ill. App. 3d 441 (Ill. App. Ct. 2001)"]\
+  \},\
+  \{\
+    "abbreviation": "Ind.",\
+    "aliases": [],\
+    "description": "Indiana Reports \'96 Indiana Supreme Court official reporter (1848\'961981) [oai_citation:128\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Indiana%20Reports%201848%E2%80%931981%20Ind,2d%2C%20or).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Indiana",\
+    "states": ["Indiana"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["275 Ind. 30 (1981)"]\
+  \},\
+  \{\
+    "abbreviation": "Ind. App.",\
+    "aliases": [],\
+    "description": "Indiana Appellate Court Reports \'96 Ind. App. (1890\'961979) [oai_citation:129\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Court%20of%20Appeals%20%28Ind,App).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Indiana",\
+    "states": ["Indiana"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["189 Ind. App. 1 (1979)"]\
+  \},\
+  \{\
+    "abbreviation": "Iowa",\
+    "aliases": [],\
+    "description": "Iowa Reports \'96 Iowa Supreme Court official reporter (1839\'961968).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Iowa",\
+    "states": ["Iowa"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["259 Iowa 813 (1967)"]\
+  \},\
+  \{\
+    "abbreviation": "Kan.",\
+    "aliases": [],\
+    "description": "Kansas Reports \'96 Kansas Supreme Court official reporter (1862\'96present) [oai_citation:130\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Kansas%20Reports%201862%E2%80%93date%20Kan,Pacific%20Reporter%201895%E2%80%931901%20P).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Kansas",\
+    "states": ["Kansas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["312 Kan. 238 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Kan. App. 2d",\
+    "aliases": [],\
+    "description": "Kansas Court of Appeals Reports (2d series) \'96 Kan. App. 2d (1977\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Kansas",\
+    "states": ["Kansas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["1 Kan. App. 2d 367 (1977)"]\
+  \},\
+  \{\
+    "abbreviation": "Ky.",\
+    "aliases": [],\
+    "description": "Kentucky Reports \'96 Kentucky highest court (Court of Appeals pre-1976) official reports (1785\'961951).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Kentucky",\
+    "states": ["Kentucky"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["314 Ky. 207 (1951)"]\
+  \},\
+  \{\
+    "abbreviation": "La.",\
+    "aliases": [],\
+    "description": "Louisiana Reports \'96 Louisiana Supreme Court official reporter (1813\'961972).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Louisiana",\
+    "states": ["Louisiana"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["259 La. 23 (1971)"]\
+  \},\
+  \{\
+    "abbreviation": "Me.",\
+    "aliases": [],\
+    "description": "Maine Reports \'96 Maine Supreme Judicial Court official reporter (1820\'961965) [oai_citation:131\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Maine%20Reports%201820%E2%80%931965%20Me,year%3E%29%20Statutes).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Maine",\
+    "states": ["Maine"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["161 Me. 123 (1965)"]\
+  \},\
+  \{\
+    "abbreviation": "Md.",\
+    "aliases": [],\
+    "description": "Maryland Reports \'96 Maryland Court of Appeals (Supreme Court) official reporter (1658\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Maryland",\
+    "states": ["Maryland"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["472 Md. 52 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Md. App.",\
+    "aliases": [],\
+    "description": "Maryland Appellate Reports \'96 Maryland Court of Special Appeals (1967\'962022). Abbrev. Md. App. [oai_citation:132\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Maryland%20Appellate%20Reports%201967,CoDE%20of%201957).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Maryland",\
+    "states": ["Maryland"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["250 Md. App. 682 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Mass.",\
+    "aliases": [],\
+    "description": "Massachusetts Reports \'96 Massachusetts Supreme Judicial Court official reporter (1804\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Massachusetts",\
+    "states": ["Massachusetts"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["484 Mass. 279 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Mass. App. Ct.",\
+    "aliases": [],\
+    "description": "Massachusetts Appeals Court Reports \'96 official reporter (1972\'96present) [oai_citation:133\'87lynn-library.libguides.com](https://lynn-library.libguides.com/US_Court_Abbreviations#:~:text=library,Minnesota%20Supreme%20Court%2C%20Minn).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Massachusetts",\
+    "states": ["Massachusetts"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["99 Mass. App. Ct. 110 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Mass. App. Div.",\
+    "aliases": [],\
+    "description": "Massachusetts Appellate Division Reports \'96 trial court Appellate Division decisions (1936\'9650; 1970s\'96present) [oai_citation:134\'87scribd.com](https://www.scribd.com/document/357191416/Blue-Book-Citations-Higgins-2015v-1#:~:text=Appellate%20Division%20Reports%201936,Div).",\
+    "court_level": "State Trial/Appellate (District Court App. Div.)",\
+    "jurisdiction": "Massachusetts",\
+    "states": ["Massachusetts"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["34 Mass. App. Dec. (App. Div. 1977)"]\
+  \},\
+  \{\
+    "abbreviation": "Mich.",\
+    "aliases": [],\
+    "description": "Michigan Reports \'96 Michigan Supreme Court official reporter (1840\'962016). Ended at 498 Mich.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Michigan",\
+    "states": ["Michigan"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["498 Mich. 533 (2016)"]\
+  \},\
+  \{\
+    "abbreviation": "Mich. App.",\
+    "aliases": [],\
+    "description": "Michigan Appeals Reports \'96 Michigan Court of Appeals official reporter (1965\'962016).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Michigan",\
+    "states": ["Michigan"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["320 Mich. App. 628 (2017)"]\
+  \},\
+  \{\
+    "abbreviation": "Minn.",\
+    "aliases": [],\
+    "description": "Minnesota Reports \'96 Minnesota Supreme Court official reporter (1851\'961977). Ended with 300 Minn.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Minnesota",\
+    "states": ["Minnesota"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["300 Minn. 1 (1977)"]\
+  \},\
+  \{\
+    "abbreviation": "Miss.",\
+    "aliases": [],\
+    "description": "Mississippi Reports \'96 Mississippi Supreme Court official reporter (1839\'961966).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Mississippi",\
+    "states": ["Mississippi"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["254 Miss. 47 (1965)"]\
+  \},\
+  \{\
+    "abbreviation": "Mo.",\
+    "aliases": [],\
+    "description": "Missouri Reports \'96 Missouri Supreme Court official reporter (1821\'961956).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Missouri",\
+    "states": ["Missouri"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["364 Mo. 779 (1954)"]\
+  \},\
+  \{\
+    "abbreviation": "Mo. App.",\
+    "aliases": [],\
+    "description": "Missouri Appellate Reports \'96 Missouri Courts of Appeals (historical, late 1800s\'961950s).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Missouri",\
+    "states": ["Missouri"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["233 Mo. App. 173 (1938)"]\
+  \},\
+  \{\
+    "abbreviation": "Mont.",\
+    "aliases": [],\
+    "description": "Montana Reports \'96 Montana Supreme Court official reporter (1868\'96present) [oai_citation:135\'87scribd.com](https://www.scribd.com/document/377333860/IndigoBook-pdf#:~:text=Montana%20Reports%201868%E2%80%93date%20Mont,x%20%28%3Cyear).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Montana",\
+    "states": ["Montana"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["400 Mont. 1 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Neb.",\
+    "aliases": [],\
+    "description": "Nebraska Reports \'96 Nebraska Supreme Court official reporter (1871\'96present; now published electronically).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Nebraska",\
+    "states": ["Nebraska"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["307 Neb. 1 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Neb. App.",\
+    "aliases": [],\
+    "description": "Nebraska Appellate Reports \'96 Nebraska Court of Appeals official reporter (1995\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Nebraska",\
+    "states": ["Nebraska"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["28 Neb. App. 908 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Nev.",\
+    "aliases": [],\
+    "description": "Nevada Reports \'96 Nevada Supreme Court official reporter (1865\'96present; still maintained, often cited with Pacific).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Nevada",\
+    "states": ["Nevada"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["138 Nev. 1 (2022)"]\
+  \},\
+  \{\
+    "abbreviation": "N.H.",\
+    "aliases": [],\
+    "description": "New Hampshire Reports \'96 N.H. Supreme Court official reporter (1816\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "New Hampshire",\
+    "states": ["New Hampshire"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["173 N.H. 183 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "N.J.",\
+    "aliases": [],\
+    "description": "New Jersey Reports \'96 N.J. Supreme Court official reporter (1948\'96present, volumes restarted at 1 in 1948) [oai_citation:136\'87courtlistener.com](https://www.courtlistener.com/c/nj/220/?page=2#:~:text=Vol,3d%20486%2C).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "New Jersey",\
+    "states": ["New Jersey"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["255 N.J. 529 (2023)"]\
+  \},\
+  \{\
+    "abbreviation": "N.J. Super.",\
+    "aliases": [],\
+    "description": "New Jersey Superior Court Reports \'96 Appellate Division and trial (Law/Chancery Div.) decisions (1948\'96present) [oai_citation:137\'87njcourts.gov](https://www.njcourts.gov/courts/municipal/case-law#:~:text=Citation%2C%20Category%2FKeyword,529%20%282023%29).",\
+    "court_level": "State Intermediate Appellate / Trial",\
+    "jurisdiction": "New Jersey",\
+    "states": ["New Jersey"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["440 N.J. Super. 400 (App. Div. 2015) [oai_citation:138\'87nj.gov](https://www.nj.gov/grc/pdf/54%20N.J.R.%202081.PDF#:~:text=,not%20file%20OPRA%20complaints)"]\
+  \},\
+  \{\
+    "abbreviation": "N.J.L.",\
+    "aliases": ["N.J. Law"],\
+    "description": "New Jersey Law Reports \'96 old Supreme Court (law) reporter (1790\'961948). Abbrev. N.J.L.",\
+    "court_level": "State Supreme Court (pre-1948)",\
+    "jurisdiction": "New Jersey",\
+    "states": ["New Jersey"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["142 N.J.L. 786 (1948)"]\
+  \},\
+  \{\
+    "abbreviation": "N.J. Eq.",\
+    "aliases": ["N.J. Eq"],\
+    "description": "New Jersey Equity Reports \'96 old Chancery Court reporter (1830\'961948). Abbrev. N.J. Eq.",\
+    "court_level": "State Chancery Court (pre-1948)",\
+    "jurisdiction": "New Jersey",\
+    "states": ["New Jersey"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["142 N.J. Eq. 358 (1948)"]\
+  \},\
+  \{\
+    "abbreviation": "N.M.",\
+    "aliases": [],\
+    "description": "New Mexico Reports \'96 New Mexico Supreme Court official reporter (1852\'962012). Ceased when NM adopted universal citation.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "New Mexico",\
+    "states": ["New Mexico"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["150 N.M. XL (2011)"]\
+  \},\
+  \{\
+    "abbreviation": "N.M. App.",\
+    "aliases": [],\
+    "description": "New Mexico Appellate Reports \'96 NM Court of Appeals official reporter (1966\'962012).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "New Mexico",\
+    "states": ["New Mexico"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["150 N.M. App. 1 (2011)"]\
+  \},\
+  \{\
+    "abbreviation": "N.Y.",\
+    "aliases": [],\
+    "description": "New York Reports \'96 NY Court of Appeals official reporter. First series N.Y. (1847\'961938), second series N.Y.2d (1938\'962016), third series N.Y.3d (2016\'96present).",\
+    "court_level": "State Highest Court (Court of Appeals)",\
+    "jurisdiction": "New York",\
+    "states": ["New York"],\
+    "common_citation_mistakes": ["Using \\"NY\\" instead of \\"N.Y.\\""],\
+    "placeholder_examples": ["34 N.Y.3d 114 (2019)"]\
+  \},\
+  \{\
+    "abbreviation": "A.D.",\
+    "aliases": ["App. Div."],\
+    "description": "Appellate Division Reports \'96 New York Supreme Court Appellate Division. First series A.D. (1896\'961950), A.D.2d (1950\'962004), A.D.3d (2004\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "New York",\
+    "states": ["New York"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["440 A.D.2d 500 (1981)", "180 A.D.3d 10 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "N.Y.S.",\
+    "aliases": ["NY Supp."],\
+    "description": "New York Supplement \'96 West\'92s regional reporter for NY state courts. N.Y.S. (1888\'961938), N.Y.S.2d (1938\'962015), N.Y.S.3d (2015\'96present). Contains NY Appellate Division and trial decisions [oai_citation:139\'87en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_legal_abbreviations#:~:text=,%E2%80%94%20%20278).",\
+    "court_level": "State (all levels)",\
+    "jurisdiction": "New York",\
+    "states": ["New York"],\
+    "common_citation_mistakes": ["Using N.Y.S. cite alone when official N.Y. or A.D. cite exists"],\
+    "placeholder_examples": ["106 A.D.3d 1540, 966 N.Y.S.2d 520 (2013)"]\
+  \},\
+  \{\
+    "abbreviation": "Misc.",\
+    "aliases": [],\
+    "description": "Miscellaneous Reports \'96 NY trial court opinions. Misc. (1893\'961955), Misc. 2d (1956\'962001), Misc. 3d (2001\'96present).",\
+    "court_level": "State Trial Courts",\
+    "jurisdiction": "New York",\
+    "states": ["New York"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["30 Misc. 3d 1201(A) (N.Y. Sup. Ct. 2010)"]\
+  \},\
+  \{\
+    "abbreviation": "N.C.",\
+    "aliases": [],\
+    "description": "North Carolina Reports \'96 NC Supreme Court official reporter (1789\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "North Carolina",\
+    "states": ["North Carolina"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["374 N.C. 516 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "N.C. App.",\
+    "aliases": [],\
+    "description": "North Carolina Court of Appeals Reports \'96 official reporter (1968\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "North Carolina",\
+    "states": ["North Carolina"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["273 N.C. App. 12 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "N.D.",\
+    "aliases": [],\
+    "description": "North Dakota Reports \'96 ND Supreme Court official reporter (1878\'961953). After 1953, only NW Reporter and now neutral citation.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "North Dakota",\
+    "states": ["North Dakota"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["82 N.D. 578 (1957)"]\
+  \},\
+  \{\
+    "abbreviation": "Ohio St.",\
+    "aliases": [],\
+    "description": "Ohio State Reports \'96 Ohio Supreme Court official reporter. Ohio St. (1852\'961938), Ohio St. 2d (1938\'961982), Ohio St. 3d (1982\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Ohio",\
+    "states": ["Ohio"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["65 Ohio St. 3d 545 (1992)"]\
+  \},\
+  \{\
+    "abbreviation": "Ohio App.",\
+    "aliases": [],\
+    "description": "Ohio Appellate Reports \'96 Ohio Courts of Appeals. Ohio App. (1913\'961934), Ohio App. 2d (1964\'961968), Ohio App. 3d (1968\'962012).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Ohio",\
+    "states": ["Ohio"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["1 Ohio App. 2d 1 (1964)"]\
+  \},\
+  \{\
+    "abbreviation": "Okla.",\
+    "aliases": [],\
+    "description": "Oklahoma Reports \'96 Oklahoma Supreme Court official reporter (1900\'961954). Ended when Oklahoma adopted Pacific Reporter as official.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Oklahoma",\
+    "states": ["Oklahoma"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["91 Okla. 180 (1942)"]\
+  \},\
+  \{\
+    "abbreviation": "Okla. Crim.",\
+    "aliases": ["Okl. Cr."],\
+    "description": "Oklahoma Criminal Reports \'96 Oklahoma Court of Criminal Appeals official reporter (1908\'961954).",\
+    "court_level": "State Criminal Appeals",\
+    "jurisdiction": "Oklahoma",\
+    "states": ["Oklahoma"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["55 Okl. Cr. 100 (1943)"]\
+  \},\
+  \{\
+    "abbreviation": "Or.",\
+    "aliases": [],\
+    "description": "Oregon Reports \'96 Oregon Supreme Court official reporter (1853\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Oregon",\
+    "states": ["Oregon"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["368 Or. 1 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Or. App.",\
+    "aliases": [],\
+    "description": "Oregon Appellate Reports \'96 Oregon Court of Appeals official reporter (1969\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Oregon",\
+    "states": ["Oregon"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["307 Or. App. 244 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Pa.",\
+    "aliases": [],\
+    "description": "Pennsylvania State Reports \'96 Pa. Supreme Court official reporter (1845\'961997) [oai_citation:140\'87guides.jenkinslaw.org](https://guides.jenkinslaw.org/pennsylvania-cases-appellate-level#:~:text=LibGuides%3A%20Pennsylvania%20Cases%20,1997%2C%20opinions%20from%20the).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Pennsylvania",\
+    "states": ["Pennsylvania"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["547 Pa. 321 (1997) [oai_citation:141\'87guides.jenkinslaw.org](https://guides.jenkinslaw.org/pennsylvania-cases-appellate-level#:~:text=LibGuides%3A%20Pennsylvania%20Cases%20,1997%2C%20opinions%20from%20the)"]\
+  \},\
+  \{\
+    "abbreviation": "Pa. Super.",\
+    "aliases": [],\
+    "description": "Pennsylvania Superior Court Reports \'96 Pa. Superior Court official reporter (1895\'961997).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Pennsylvania",\
+    "states": ["Pennsylvania"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["456 Pa. Super. 123 (1997)"]\
+  \},\
+  \{\
+    "abbreviation": "Pa. Commw.",\
+    "aliases": [],\
+    "description": "Pennsylvania Commonwealth Court Reports \'96 Pa. Commw. (1970\'961995).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Pennsylvania",\
+    "states": ["Pennsylvania"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["168 Pa. Commw. 321 (1994)"]\
+  \},\
+  \{\
+    "abbreviation": "Pa. D. & C.",\
+    "aliases": [],\
+    "description": "Pennsylvania District & County Reports \'96 compiled trial court opinions in multiple series (D.&C., D.&C.2d, etc., 1918\'96present).",\
+    "court_level": "State Trial Courts",\
+    "jurisdiction": "Pennsylvania",\
+    "states": ["Pennsylvania"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["12 Pa. D. & C.5th 123 (2010)"]\
+  \},\
+  \{\
+    "abbreviation": "R.I.",\
+    "aliases": [],\
+    "description": "Rhode Island Reports \'96 Rhode Island Supreme Court official reporter (1828\'961980). After 1980, rely on A.2d and now A.3d.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Rhode Island",\
+    "states": ["Rhode Island"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["120 R.I. 667 (1978)"]\
+  \},\
+  \{\
+    "abbreviation": "S.C.",\
+    "aliases": [],\
+    "description": "South Carolina Reports \'96 S.C. Supreme Court official reporter (1783\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "South Carolina",\
+    "states": ["South Carolina"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["424 S.C. 579 (2018)"]\
+  \},\
+  \{\
+    "abbreviation": "S.D.",\
+    "aliases": [],\
+    "description": "South Dakota Reports \'96 S.D. Supreme Court official reporter (1879\'961996). Ended when SD adopted neutral citation in 1996.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "South Dakota",\
+    "states": ["South Dakota"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["527 N.W.2d 394 (S.D. 1995)"]\
+  \},\
+  \{\
+    "abbreviation": "Tenn.",\
+    "aliases": [],\
+    "description": "Tennessee Reports \'96 Tennessee Supreme Court official reporter (1791\'961971). After 1971, Tennessee uses SW Reporter.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Tennessee",\
+    "states": ["Tennessee"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["478 S.W.2d 983 (Tenn. 1972)"]\
+  \},\
+  \{\
+    "abbreviation": "Tex.",\
+    "aliases": [],\
+    "description": "Texas Reports \'96 Texas Supreme Court official reporter (1846\'961962).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Texas",\
+    "states": ["Texas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["162 Tex. 1 (1961)"]\
+  \},\
+  \{\
+    "abbreviation": "Tex. Crim.",\
+    "aliases": [],\
+    "description": "Texas Criminal Reports \'96 Texas Court of Criminal Appeals official reporter (1879\'961962).",\
+    "court_level": "State Highest Criminal Court",\
+    "jurisdiction": "Texas",\
+    "states": ["Texas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["160 Tex. Crim. 183 (1953)"]\
+  \},\
+  \{\
+    "abbreviation": "Tex. Civ. App.",\
+    "aliases": [],\
+    "description": "Texas Civil Appeals Reports \'96 historical reporter for Texas Courts of Civil Appeals (1892\'961911). After 1911, use S.W.",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Texas",\
+    "states": ["Texas"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["31 Tex. Civ. App. 486 (1904)"]\
+  \},\
+  \{\
+    "abbreviation": "Utah",\
+    "aliases": [],\
+    "description": "Utah Reports \'96 Utah Supreme Court official reporter (1851\'961999). Utah adopted neutral citation after 1999.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Utah",\
+    "states": ["Utah"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["948 P.2d 712 (Utah 1997)"]\
+  \},\
+  \{\
+    "abbreviation": "Utah 2d",\
+    "aliases": [],\
+    "description": "Utah Reports, Second Series \'96 label sometimes used for mid-20th century Utah official reports (if any; often Utah just continued numbering).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Utah",\
+    "states": ["Utah"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": []\
+  \},\
+  \{\
+    "abbreviation": "Vt.",\
+    "aliases": [],\
+    "description": "Vermont Reports \'96 Vermont Supreme Court official reporter (1829\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Vermont",\
+    "states": ["Vermont"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["211 Vt. 102 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Va.",\
+    "aliases": [],\
+    "description": "Virginia Reports \'96 Virginia Supreme Court official reporter (1790\'96present) [oai_citation:142\'87guides.loc.gov](https://guides.loc.gov/case-law/state-courts#:~:text=State%20Court%20Decisions%20,Virginia%20Reports%2C%20and%20for).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Virginia",\
+    "states": ["Virginia"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["299 Va. 348 (2021)"]\
+  \},\
+  \{\
+    "abbreviation": "Va. App.",\
+    "aliases": [],\
+    "description": "Virginia Court of Appeals Reports \'96 Va. App. (1985\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Virginia",\
+    "states": ["Virginia"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["72 Va. App. 250 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "Wash.",\
+    "aliases": [],\
+    "description": "Washington Reports \'96 Washington Supreme Court official reporter (1854\'961939). Continued as \'93Wash. 2d\'94 (1939\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Washington",\
+    "states": ["Washington"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2 Wash. 2d 1 (1939)"]\
+  \},\
+  \{\
+    "abbreviation": "Wash. 2d",\
+    "aliases": ["Wn.2d"],\
+    "description": "Washington Reports, Second Series \'96 current WA Supreme Court reports (vol. 1 Wash. 2d (1939) onward).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Washington",\
+    "states": ["Washington"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["200 Wash. 2d 1 (2022)"]\
+  \},\
+  \{\
+    "abbreviation": "Wash. App.",\
+    "aliases": ["Wn. App."],\
+    "description": "Washington Appellate Reports \'96 Washington Court of Appeals official reporter (1969\'96present).",\
+    "court_level": "State Intermediate Appellate",\
+    "jurisdiction": "Washington",\
+    "states": ["Washington"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["12 Wn. App. 2d 783 (2020)"]\
+  \},\
+  \{\
+    "abbreviation": "W. Va.",\
+    "aliases": [],\
+    "description": "West Virginia Reports \'96 W.Va. Supreme Court of Appeals official reporter (1864\'96present).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "West Virginia",\
+    "states": ["West Virginia"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["242 W. Va. 277 (2019)"]\
+  \},\
+  \{\
+    "abbreviation": "Wis.",\
+    "aliases": [],\
+    "description": "Wisconsin Reports \'96 Wis. Supreme Court official reporter (1853\'961953). Continued as \'93Wis. 2d\'94 (1953\'96present) [oai_citation:143\'87law.cornell.edu](https://www.law.cornell.edu/citation/3-200#:~:text=University%20www,state%20references%20to%20decisions).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Wisconsin",\
+    "states": ["Wisconsin"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["263 Wis. 321 (1953)"]\
+  \},\
+  \{\
+    "abbreviation": "Wis. 2d",\
+    "aliases": [],\
+    "description": "Wisconsin Reports, Second Series \'96 current Wis. Supreme Court reports (1953\'96present) [oai_citation:144\'87lexisnexis.com](https://www.lexisnexis.com/documents/pdfstore/Wisconsin_Bluebook_Final.pdf#:~:text=of%20Wisconsin%20Reports%20would%20be,Note%3A%20There%20is%20a).",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Wisconsin",\
+    "states": ["Wisconsin"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["244 Wis. 2d 481 (2001)"]\
+  \},\
+  \{\
+    "abbreviation": "Wyo.",\
+    "aliases": [],\
+    "description": "Wyoming Reports \'96 Wyoming Supreme Court official reporter (1869\'961954). Discontinued in favor of Pacific and now neutral citation.",\
+    "court_level": "State Supreme Court",\
+    "jurisdiction": "Wyoming",\
+    "states": ["Wyoming"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["70 Wyo. 393 (1954)"]\
+  \},\
+  \{\
+    "abbreviation": "AR",\
+    "aliases": [],\
+    "description": "Arkansas public-domain citation \'96 since 2009, Arkansas Supreme Court uses format: Year Ark ### (e.g., 2018 Ark 5) [oai_citation:145\'87coloradocommunitymedia.com](https://coloradocommunitymedia.com/2012/01/09/colorado-appellate-courts-adopt-new-case-citation-format/#:~:text=A%20citation%20to%20an%20appellate,the%2035th%20issued%20by%20each); Arkansas Court of Appeals: Year Ark. App ###.",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Arkansas",\
+    "states": ["Arkansas"],\
+    "common_citation_mistakes": ["Using \\"Ark.\\" instead of \\"Ark\\" (neutral citations omit period)"],\
+    "placeholder_examples": ["2018 Ark 5", "2018 Ark. App. 12"]\
+  \},\
+  \{\
+    "abbreviation": "CO",\
+    "aliases": ["Colo. (neutral)"],\
+    "description": "Colorado neutral citation \'96 since 2012, Colorado Supreme Court: Year CO ##; Court of Appeals: Year COA ## [oai_citation:146\'87coloradocommunitymedia.com](https://coloradocommunitymedia.com/2012/01/09/colorado-appellate-courts-adopt-new-case-citation-format/#:~:text=A%20citation%20to%20an%20appellate,the%2035th%20issued%20by%20each) (no period in CO/COA).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Colorado",\
+    "states": ["Colorado"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2012 CO 22 \'b6 44 [oai_citation:147\'87coloradocommunitymedia.com](https://coloradocommunitymedia.com/2012/01/09/colorado-appellate-courts-adopt-new-case-citation-format/#:~:text=A%20citation%20to%20an%20appellate,the%2035th%20issued%20by%20each)", "2012 COA 35"]\
+  \},\
+  \{\
+    "abbreviation": "IL",\
+    "aliases": [],\
+    "description": "Illinois neutral citation \'96 since July 2011, Illinois Supreme Court and Appellate Court use public-domain format: Year IL ### (Supreme) or Year IL App (Dist) ### [oai_citation:148\'87illinoisappellatelawyerblog.com](https://www.illinoisappellatelawyerblog.com/illinois_adopts_new_publicdoma/#:~:text=Illinois%20Adopts%20New%20Public,has%20amended%20its%20Rule%206).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Illinois",\
+    "states": ["Illinois"],\
+    "common_citation_mistakes": ["Using \\"Ill.\\" instead of \\"IL\\" in neutral cite"],\
+    "placeholder_examples": ["2023 IL 123", "2023 IL App (1st) 230123"]\
+  \},\
+  \{\
+    "abbreviation": "LA",\
+    "aliases": [],\
+    "description": "Louisiana neutral docket-based citation \'96 adopted 1994 [oai_citation:149\'87citeblog.access-to-law.com](https://citeblog.access-to-law.com/?tag=neutral-citations-2#:~:text=Thirty%20years%20ago%2C%20in%201994%2C,6%20ABA%20promptly%20added%20its) (e.g., 1998-1234 (La.) format). Louisiana also continues parallel So.3d cites.",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Louisiana",\
+    "states": ["Louisiana"],\
+    "common_citation_mistakes": ["Using \\"La.\\" official reporter (obsolete after 1972)"],\
+    "placeholder_examples": ["2003-CC-1234 (La. 2003)"]\
+  \},\
+  \{\
+    "abbreviation": "MT",\
+    "aliases": [],\
+    "description": "Montana neutral citation \'96 since 1998, format: Year MT ## (and \'b6 for pinpoint).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Montana",\
+    "states": ["Montana"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2020 MT 5, \'b6 12"]\
+  \},\
+  \{\
+    "abbreviation": "ND",\
+    "aliases": [],\
+    "description": "North Dakota neutral citation \'96 since 1997, format: Year ND ##, \'b6 ## [oai_citation:150\'87lawblog.justia.com](https://lawblog.justia.com/2010/12/17/public-domain-legal-citations/#:~:text=For%20example%2C%20in%20North%20Dakota%2C,2d%2059).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "North Dakota",\
+    "states": ["North Dakota"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2003 ND 140, \'b6 9 [oai_citation:151\'87lawblog.justia.com](https://lawblog.justia.com/2010/12/17/public-domain-legal-citations/#:~:text=For%20example%2C%20in%20North%20Dakota%2C,2d%2059)"]\
+  \},\
+  \{\
+    "abbreviation": "NM",\
+    "aliases": [],\
+    "description": "New Mexico neutral citation \'96 since 1997, format: Year-NMSC-## (Supreme) or Year-NMCA-## (Court of App.). Applied retroactively [oai_citation:152\'87citeblog.access-to-law.com](https://citeblog.access-to-law.com/?tag=neutral-citations-2#:~:text=law,Each%20now%20offers).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "New Mexico",\
+    "states": ["New Mexico"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2015-NMSC-010", "2015-NMCA-012"]\
+  \},\
+  \{\
+    "abbreviation": "OK",\
+    "aliases": [],\
+    "description": "Oklahoma neutral citation \'96 since 1997, format: Year OK ## (Supreme), Year OK CR ## (Criminal App.), Year OK CIV APP ## (Civil App.). Retroactive to 1890 [oai_citation:153\'87lawblog.justia.com](https://lawblog.justia.com/2010/12/17/public-domain-legal-citations/#:~:text=If%20the%20public%20owns%20the,are%20provided%20on%20the%20opinions).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Oklahoma",\
+    "states": ["Oklahoma"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2019 OK 5", "2019 OK CR 3"]\
+  \},\
+  \{\
+    "abbreviation": "SD",\
+    "aliases": [],\
+    "description": "South Dakota neutral citation \'96 since 1996, format: Year SD ##, \'b6 ##.",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "South Dakota",\
+    "states": ["South Dakota"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2004 SD 2, \'b6 15"]\
+  \},\
+  \{\
+    "abbreviation": "UT",\
+    "aliases": [],\
+    "description": "Utah neutral citation \'96 since 1999, format: Year UT ## (Supreme) or Year UT App ## (Court of App.), with \'b6 for pinpoints.",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Utah",\
+    "states": ["Utah"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2012 UT 25, \'b6 7", "2012 UT App 15, \'b6 3"]\
+  \},\
+  \{\
+    "abbreviation": "WI",\
+    "aliases": [],\
+    "description": "Wisconsin neutral citation \'96 since 2000, format: Year WI ## (Supreme) or Year WI App ## (Court of App.), plus \'b6 for pinpoint [oai_citation:154\'87coloradocommunitymedia.com](https://coloradocommunitymedia.com/2012/01/09/colorado-appellate-courts-adopt-new-case-citation-format/#:~:text=Sixteen%20other%20states%2C%20including%20New,by%20the%20American%20Bar%20Association).",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Wisconsin",\
+    "states": ["Wisconsin"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2010 WI 5, \'b6 20", "2010 WI App 20, \'b6 5"]\
+  \},\
+  \{\
+    "abbreviation": "WY",\
+    "aliases": [],\
+    "description": "Wyoming neutral citation \'96 since ~2000, format: Year WY ##, \'b6 ##.",\
+    "court_level": "State (Neutral)",\
+    "jurisdiction": "Wyoming",\
+    "states": ["Wyoming"],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2014 WY 20, \'b6 10"]\
+  \},\
+  \{\
+    "abbreviation": "WL",\
+    "aliases": [],\
+    "description": "Westlaw citation \'96 citation to unpublished cases in Westlaw, format: Year WL ######.",\
+    "court_level": "Unpublished/Vendor",\
+    "jurisdiction": "All",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing space (\\"2023WL123456\\" instead of \\"2023 WL 123456\\")"],\
+    "placeholder_examples": ["2023 WL 123456"]\
+  \},\
+  \{\
+    "abbreviation": "LEXIS",\
+    "aliases": [],\
+    "description": "Lexis citation \'96 citation to unpublished cases in Lexis, format often: Year U.S. Dist. LEXIS ##### or similar.",\
+    "court_level": "Unpublished/Vendor",\
+    "jurisdiction": "All",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["2023 U.S. Dist. LEXIS 10000"]\
+  \},\
+  \{\
+    "abbreviation": "slip op.",\
+    "aliases": [],\
+    "description": "Slip Opinion \'96 used to cite an opinion not in a reporter (often with a docket or \\"slip op.\\" notation).",\
+    "court_level": "Unpublished",\
+    "jurisdiction": "All",\
+    "states": [],\
+    "common_citation_mistakes": [],\
+    "placeholder_examples": ["No. 21-123, slip op. at 5 (Jan. 1, 2023)"]\
+  \},\
+  \{\
+    "abbreviation": "No.",\
+    "aliases": [],\
+    "description": "Docket number abbreviation \'96 \\"No.\\" precedes case numbers (e.g., No. 21-123).",\
+    "court_level": "N/A",\
+    "jurisdiction": "All",\
+    "states": [],\
+    "common_citation_mistakes": ["Missing period (\\"No 21-123\\" instead of \\"No. 21-123\\")"],\
+    "placeholder_examples": ["No. 21-123"]\
+  \},\
+  \{\
+    "abbreviation": "Ct. App.",\
+    "aliases": [],\
+    "description": "Court of Appeals (generic) \'96 informal abbreviation sometimes used in text for a state\'92s intermediate court. Bluebook usually uses specific abbreviations (e.g., \\"Ill. App. Ct.\\").",\
+    "court_level": "N/A",\
+    "jurisdiction": "Multiple",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"Ct. App.\\" without state identification in citations"],\
+    "placeholder_examples": ["(Ct. App. 2022)"]\
+  \},\
+  \{\
+    "abbreviation": "SCOTUS",\
+    "aliases": [],\
+    "description": "\\"Supreme Court of the United States\\" \'96 colloquial acronym, not used in formal citations.",\
+    "court_level": "Supreme Court",\
+    "jurisdiction": "Federal",\
+    "states": [],\
+    "common_citation_mistakes": ["Using \\"SCOTUS\\" instead of proper reporter or court name"],\
+    "placeholder_examples": ["SCOTUS decision (2021)"]\
+  \}\
+]}
