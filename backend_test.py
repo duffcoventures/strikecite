@@ -167,7 +167,7 @@ class StrikeCiteAPITester:
         
         # Sample text as specified in the requirements
         text_data = {
-            "text": "The case Roe v. Wade, 410 U.S. 113 (1973), was significant."
+            "text": "Roe v. Wade, 410 U.S. 113 (1973), and Smith v. Jones, 123 F3rd 456 (invalid citation)."
         }
         
         success, response = self.run_test(
@@ -187,17 +187,29 @@ class StrikeCiteAPITester:
                 if len(response['citations']) > 0:
                     print(f"✅ Found {len(response['citations'])} citations")
                     
-                    # Check if the Roe v. Wade citation was verified
+                    # Check for specific citations
                     roe_citations = [c for c in response['citations'] if "410 U.S. 113" in c['normalized']]
                     if roe_citations and roe_citations[0]['verified']:
                         print(f"✅ Roe v. Wade citation was verified")
                     else:
                         print(f"❌ Roe v. Wade citation was not verified or not found")
+                    
+                    # Check for typo detection in the F3rd citation
+                    f3rd_citations = [c for c in response['citations'] if "F3rd" in c['raw']]
+                    if f3rd_citations:
+                        if "typo" in f3rd_citations[0]['note'].lower() and "F.3d" in f3rd_citations[0]['note']:
+                            print(f"✅ Correctly identified typo in 'F3rd' and suggested 'F.3d'")
+                        else:
+                            print(f"❌ Failed to detect typo in 'F3rd' or suggest 'F.3d'")
+                            print(f"  Note: {f3rd_citations[0]['note']}")
+                    else:
+                        print(f"❌ Failed to find the F3rd citation")
                 else:
                     print(f"❌ No citations found in the text")
                 
-                # Check summary
-                print(f"Summary: {response['summary']}")
+                # Check confidence scoring
+                print(f"Confidence: {response['summary']['confidence']}")
+                print(f"Summary: Total: {response['summary']['total']}, Verified: {response['summary']['verified']}, Unverified: {response['summary']['unverified']}")
             else:
                 print("❌ Response missing expected fields")
                 
